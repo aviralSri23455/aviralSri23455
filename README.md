@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @aviralSri23455
 - 👀 I’m interested in ...Coding ,Playing cricket
-- 🌱 I’m currently learning ...React native ,react JS,full stack 
-- 💞️ I’m looking to collaborate on ...Android and web apps
+- 🌱 I’m currently developer ...Mern Stack 
+- 💞️ I’m looking to collaborate on ...Android and web apps base on react native
 - 📫 How to reach me ...
 
 <!---
