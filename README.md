@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
 <h3 align="center">A passionate Software developer from India</h3>
 
-<p align="left"> <img src="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC" alt="aviralsri23455" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=aviralsri23455&label=Profile%20views&color=0e75b6&style=flat" alt="aviralsri23455" /> </p>
 
 - 🌱 I’m currently learning **AI,ML and data science**
 
@@ -27,4 +27,6 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=aviralsri23455&show_icons=true&locale=en&layout=compact" alt="aviralsri23455" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=aviralsri23455&show_icons=true&locale=en" alt="aviralsri23455" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=aviralsri23455&" alt="aviralsri23455" /></p>
 
