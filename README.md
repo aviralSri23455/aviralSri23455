@@ -1,4 +1,4 @@
-[![Banner](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)](https://github.com/aviralSri23455){:width="480px" height="360px"}
+[![Banner](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)](https://github.com/aviralSri23455){:width="480px"}
 
 
 
