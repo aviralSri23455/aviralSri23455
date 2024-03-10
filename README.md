@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
 <h3 align="center">A passionate Software developer from India</h3>
-
-![Profile Image](/img/img.gif)
-
+![image](/img/img.gif)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aviralsri23455&label=Profile%20views&color=0e75b6&style=flat" alt="aviralsri23455" /> </p>
 
 - 🌱 I’m currently learning **AI,ML and data science**
