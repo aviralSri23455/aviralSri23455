@@ -1,10 +1,6 @@
-<div style="width: 100%; height: 500px; overflow: hidden; background-color: red;">
-  <a href="https://github.com/aviralSri23455" style="display: block;">
-    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Banner" style="width: 100%; height: 100%; object-fit: cover;">
-  </a>
-</div>
-
-
+<a href="https://github.com/aviralSri23455">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Banner" width="500" height="500">
+</a>
 
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
 <h3 align="center">A passionate Software developer from India</h3>
