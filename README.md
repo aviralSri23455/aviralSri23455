@@ -1,5 +1,5 @@
 <a href="https://github.com/aviralSri23455">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Banner" width="2000" height="500">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Banner" width="2000" height="1000">
 </a>
 
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
