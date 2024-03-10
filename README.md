@@ -1,4 +1,4 @@
-[![Banner](/img/img.jpg)](https://github.com/aviralSri23455)
+[![](/img/img.jpg)](https://github.com/aviralSri23455)
 
 
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
