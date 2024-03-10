@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
+![Hi, I'm Aviral Srivastava](https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC)
 <h3 align="center">A passionate Software developer from India</h3>
 
 
