@@ -1,6 +1,4 @@
-[![Banner](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)](https://github.com/aviralSri23455){}
-
-
+[![Banner](https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif)](https://github.com/aviralSri23455)
 
 
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
