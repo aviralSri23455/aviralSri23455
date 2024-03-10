@@ -1,3 +1,6 @@
+[![Banner](/img/img.jpg)](https://github.com/aviralSri23455)
+
+
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
 <h3 align="center">A passionate Software developer from India</h3>
 
