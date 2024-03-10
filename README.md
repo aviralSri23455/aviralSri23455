@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
 <h3 align="center">A passionate Software developer from India</h3>
+<img align="right" alt="developer" width="400" src="https://giphy.com/gifs/dommespace-domme-space-programador-qgQUggAC3Pfv687qPC">
+
 
  <p align="center">
         <img src="./img/img.gif" alt="Animated Developer Image" width="400" height="400" />
