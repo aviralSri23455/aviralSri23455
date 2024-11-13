@@ -7,17 +7,18 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aviralsri23455&label=Profile%20views&color=0e75b6&style=flat" alt="aviralsri23455" /> </p>
 
-- 🌱 I’m currently learning **AI,ML and data science**
+About Me
 
-- 👯 I’m looking to collaborate on **React Js and Node JS**
+- 🌱 Currently expanding my skills in React and Node.js.
+- 👯 Open to collaboration on projects involving the MERN stack.
+- 🤔 Seeking guidance on improving my artifcal intelligences/machine learning skills.
+- 💬 Ask me about full-stack development and JavaScript frameworks.
+- 📫 Reach out to me at your-email@example.com.
+- ⚡ Fun Fact: The term "bug" in computer science originated from a literal bug!
+Connect with Me
 
-- 🤝 I’m looking for help with **Mongo DB,Data Analysis**
-
-- 💬 Ask me about **ReactJs,NodeJs,Python,Flask**
-
-- 📫 How to reach me **aviralsrivastava57@gmail.com**
-
-- ⚡ Fun fact **⚡ Fun fact **"The term "bug" in computer science, referring to an error in a program or system, has an interesting origin. It dates back to 1947 when Grace Hopper, a computer scientist, found an actual insect (a moth) causing a malfunction in the Harvard Mark II computer. She taped the moth into the computer's logbook, noting it as the "first actual case of bug being found." Since then, the term "debugging" has been widely used in computer science to describe the process of finding and fixing errors in code".****
+GitHub
+LinkedIn
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
