@@ -10,8 +10,8 @@
 About Me
 
 - 🌱 Currently expanding my skills in React and Node.js.
-- 👯 Open to collaboration on projects involving the MERN stack.
-- 🤔 Seeking guidance on improving my artifcal intelligences/machine learning skills.
+- 👯 Open to collaboration on projects involving the MERN stack/Backend Developer/Full Stack
+- 🤔 Seeking guidance on improving my artificial intelligences/machine learning skills.
 - 💬 Ask me about full-stack development and JavaScript frameworks.
 - 📫 Reach out to me at aviralsrivastava50@outlook.com.
 - ⚡ Fun Fact: The term "bug" in computer science originated from a literal bug!
