@@ -36,10 +36,7 @@
 📩 **Email:** aviralsrivastava50@outlook.com  
 📂 **GitHub Repositories:** [Check out my work](https://github.com/aviralSri23455?tab=repositories)  
 
----
 
-
----
 
 ## 📊 GitHub Analytics  
 <p align="center">
