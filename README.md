@@ -27,8 +27,7 @@
 ## 💡 What I’m Learning & Building  
 🔥 **Mastering AI, ML, and DevOps**  
 🏗️ **Exploring Scalable Microservices & Distributed Systems**  
-📜 **Writing about Software Engineering,  on Medium**  
-
+📜 **Writing about Software Engineering on Medium**  
 
 ---
 
@@ -49,6 +48,9 @@
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aviralsri23455&theme=dracula"/>
 </p>  
+<p align="center">
+  🚀 **Joined GitHub in 2023**
+</p>
 
 ---
 
