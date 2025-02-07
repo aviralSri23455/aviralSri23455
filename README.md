@@ -66,10 +66,10 @@
 ---
 
 ### ⚡ **Fun Fact**
-> "The first computer virus was created in 1986 by two Pakistani brothers."
+🔹** The first American computer virus, "Elk Cloner," was created in 1982 by a 15-year-old high school student, Richard Skrenta!**
 
 ---
 
 ## **📣 Want to Collaborate?**
-🔹 **Feel free to reach out for collaborations on Open Source Projects or Backend Development!**
+🔹 **Feel free to reach out for collaborations on Open Source Projects ,Mern Stack,Full Stack**
 
