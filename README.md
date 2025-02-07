@@ -45,6 +45,19 @@
 
 ---
 
+## 📊 GitHub Analytics  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aviralsri23455&show_icons=true&theme=dark" alt="Aviral's GitHub Stats"/>
+</p>  
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aviralsri23455&theme=dark" alt="GitHub Streak Stats"/>
+</p>  
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aviralsri23455&theme=dracula"/>
+</p>  
+
+---
+
 ## ⚡ Fun Fact  
 🔹 **NASA’s first Apollo program computers had less processing power than today’s smartphones!** 🚀📱  
 
