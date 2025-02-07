@@ -38,10 +38,6 @@
 
 ---
 
-## 🎯 Open Source Contributions  
-✅ **Contributed to MERN Stack, AI, and Cloud projects**  
-🚀 **Active in GitHub Discussions & Developer Communities**  
-📜 **Check out my contributions on GitHub**  
 
 ---
 
