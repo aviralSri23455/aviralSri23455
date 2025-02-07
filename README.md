@@ -35,8 +35,9 @@
 ## 📫 Reach Me  
 📩 **Email:** aviralsrivastava50@outlook.com  
 📂 **GitHub Repositories:** [Check out my work](https://github.com/aviralSri23455?tab=repositories)  
+📸 **Instagram:** [@aviralsrivastava_009](https://www.instagram.com/aviralsrivastava_009/)  
 
-
+---
 
 ## 📊 GitHub Analytics  
 <p align="center">
