@@ -1,8 +1,12 @@
 
-<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; background: url('https://raw.githubusercontent.com/aviralsri23455/aviralsri23455/main/developer-8764523_1280.jpg') no-repeat center center/cover; height: 400px; border-radius: 15px; color: white;">
-    <h1>Hi 👋, I'm Aviral Srivastava</h1>
-    <h3>A passionate Software Developer from India</h3>
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aviralsri23455/aviralsri23455/main/developer-8764523_1280.jpg" width="100%" style="border-radius: 15px;">
+</p>
+
+<h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
+<h3 align="center">A passionate Software Developer from India</h3>
+
+
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aviralsri23455&label=Profile%20views&color=0e75b6&style=flat" alt="aviralsri23455" /> </p>
