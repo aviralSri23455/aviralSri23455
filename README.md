@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aviralsri23455/aviralsri23455/main/developer-8764523_1280.jpg" width="600" height="200">
+  <img src="https://raw.githubusercontent.com/aviralsri23455/aviralsri23455/main/developer-8764523_1280.jpg" width="600" height="400">
 </p>
 
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
