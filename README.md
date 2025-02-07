@@ -48,9 +48,11 @@
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aviralsri23455&theme=dracula"/>
 </p>  
+
 <p align="center">
-  🚀 **Joined GitHub in 2023**
+  🚀 **Officially Joined GitHub in 2023** 🎉
 </p>
+
 
 ---
 
