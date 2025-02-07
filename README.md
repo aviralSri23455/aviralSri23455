@@ -27,8 +27,8 @@
 ## 💡 What I’m Learning & Building  
 🔥 **Mastering AI, ML, and DevOps**  
 🏗️ **Exploring Scalable Microservices & Distributed Systems**  
-📜 **Writing about Software Engineering, Cloud, & AI on Medium**  
-🌍 **Actively contributing to Open Source Projects**  
+📜 **Writing about Software Engineering,  on Medium**  
+
 
 ---
 
