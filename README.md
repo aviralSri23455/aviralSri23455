@@ -1,3 +1,6 @@
+<div align="center">
+ <img src="https://raw.githubusercontent.com/aviralsri23455/aviralsri23455/main/developer-8764523_1280.jpg" alt="background" width="100%" style="border-radius: 15px"/>
+
 <h1 align="center">Hi 👋, I'm Aviral Srivastava</h1>
 <h3 align="center">A passionate Software Developer from India</h3>
 
