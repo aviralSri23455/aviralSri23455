@@ -66,7 +66,7 @@
 ---
 
 ### ⚡ **Fun Fact**
-🔹** The first American computer virus, "Elk Cloner," was created in 1982 by a 15-year-old high school student, Richard Skrenta!**
+🔹**The first American computer virus, "Elk Cloner," was created in 1982 by a 15-year-old high school student, Richard Skrenta!**
 
 ---
 
