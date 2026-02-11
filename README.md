@@ -1,15 +1,14 @@
-
 <div align="center">
 
-<!-- Animated Header with Particle Effect -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Aviral%20Srivastava&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%20Enthusiast%20%7C%20Cloud%20Architect&descSize=20&descAlignY=55"/>
+<!-- 1. HOLOGRAPHIC HEADER -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Aviral%20Srivastava&fontSize=60&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20AI%20Enthusiast&descSize=22&descAlignY=55"/>
 
-<!-- Animated Typing SVG with Multiple Lines -->
+<!-- 2. TYPING SVG -->
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=900&height=120&lines=Full-Stack+Developer+%F0%9F%9A%80;AI+%26+ML+Enthusiast+%F0%9F%A4%96;DevOps+Practitioner+%E2%98%81%EF%B8%8F;%F0%9F%8F%86+ERINE+AI+Winner+%F0%9F%8F%86;Building+the+Future+with+Code+%F0%9F%92%BB" alt="Typing SVG" />
 </a>
 
-<!-- Animated Social Badges -->
+<!-- 3. SOCIAL BADGES -->
 <p align="center">
   <a href="https://www.instagram.com/aviralsrivastava_009/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&style=flat-square&labelColor=E4405F&color=C13584" alt="Instagram"/>
@@ -22,51 +21,202 @@
   </a>
 </p>
 
-<!-- Animated Counters -->
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aviralsri23455&label=Profile%20Views&color=00d9ff&style=for-the-badge&labelColor=1a1a1a" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/aviralsri23455?label=Followers&style=for-the-badge&color=00d9ff&labelColor=1a1a1a&logo=github" alt="Followers"/>
   <img src="https://img.shields.io/github/stars/aviralsri23455?label=Total%20Stars&style=for-the-badge&color=FFD700&labelColor=1a1a1a&logo=github" alt="Stars"/>
 </p>
 
-<!-- Animated Wave Separator -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3"/>
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:FF00FF"/>
 
 </div>
 
 ---
 
+<!-- 4. MATRIX RAIN BACKGROUND SECTION -->
 <div align="center">
 
-## 🏆 **ACHIEVEMENTS HIGHLIGHT** 🏆
+<!-- 5. ACHIEVEMENTS HIGHLIGHT WITH NEXT-LEVEL ANIMATIONS -->
 
-<!-- Achievement Banner -->
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=24,24,24&height=150&section=header&text=Award%20Winning%20Developer&fontSize=30&fontColor=FFD700&animation=fadeIn"/>
+<!-- Epic Header Wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=🏆%20ACHIEVEMENTS%20HIGHLIGHT%20🏆&fontSize=40&fontColor=FFD700&animation=twinkling&fontAlignY=38"/>
 
-### 🥇 **1ST PLACE WINNER - ERINE AI Developer Challenge** 🥇
-**Recognized for Excellence in AI Innovation & Development**
+<!-- Multi-Color Neon Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=5&color=0:FFD700,25:FF00FF,50:00D9FF,75:FF00FF,100:FFD700"/>
 
-<img src="https://img.shields.io/badge/Achievement-Gold_Trophy-FFD700?style=for-the-badge&logo=starship&logoColor=white&labelColor=1a1a1a" alt="Achievement"/>
-<img src="https://img.shields.io/badge/Category-AI%20Innovation-00d9ff?style=for-the-badge&logo=robot&logoColor=white&labelColor=1a1a1a" alt="Category"/>
+<br/>
 
-### 🎯 **MariaDB Competition - Idea Shortlisted** 🎯
-**Selected Among Top Innovative Database Solutions**
+<!-- AWARD WINNING DEVELOPER BANNER -->
+<table align="center">
+<tr>
+<td align="center">
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=12,14,16,18,20&height=120&section=header&text=🏆%20AWARD%20WINNING%20DEVELOPER%20🏆&fontSize=32&fontColor=FFD700&animation=twinkling&fontAlignY=55&stroke=FFD700&strokeWidth=2"/>
+</td>
+</tr>
+</table>
 
-<img src="https://img.shields.io/badge/Achievement-Shortlisted-00d9ff?style=for-the-badge&logo=database&logoColor=white&labelColor=1a1a1a" alt="Shortlisted"/>
-<img src="https://img.shields.io/badge/Category-Database%20Innovation-FF6B6B?style=for-the-badge&logo=mariadb&logoColor=white&labelColor=1a1a1a" alt="Category"/>
+<br/>
 
-<!-- Animated Separator -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<!-- Animated Sparkle Line -->
+<p align="center">
+  ⭐━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⭐
+</p>
+
+<br/>
+
+<!-- ACHIEVEMENT CARDS IN PERFECT ALIGNMENT -->
+<table>
+<tr>
+
+<!-- FIRST ACHIEVEMENT CARD - ERINE AI -->
+<td width="50%" valign="top">
+<div align="center">
+
+<!-- Gold Medal Icon -->
+🥇
+
+<br/><br/>
+
+<!-- Glowing Card Header -->
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=24&height=80&section=header&text=🥇%20FIRST%20PLACE%20WINNER%20🥇&fontSize=20&fontColor=FFD700&animation=fadeIn&fontAlignY=55&stroke=FFD700&strokeWidth=1"/>
+
+<br/>
+
+### **ERINE AI DEVELOPER CHALLENGE**
+
+<br/>
+
+<!-- Neon Accent Line -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=24"/>
+
+<br/>
+
+**🎖️ RECOGNIZED FOR EXCELLENCE IN**  
+**AI INNOVATION & DEVELOPMENT**
+
+<br/>
+
+<!-- Badge Stack -->
+<img src="https://img.shields.io/badge/🏆_ACHIEVEMENT-GOLD_TROPHY-FFD700?style=for-the-badge&labelColor=1a1a1a&color=FFD700" alt="Achievement"/>
+
+<img src="https://img.shields.io/badge/🤖_CATEGORY-AI_INNOVATION-00d9ff?style=for-the-badge&labelColor=1a1a1a&color=00d9ff" alt="Category"/>
+
+<img src="https://img.shields.io/badge/⭐_RANK-1ST_PLACE-FF6B6B?style=for-the-badge&labelColor=1a1a1a&color=FF6B6B" alt="Rank"/>
+
+<br/><br/>
+
+<!-- Particle Effect -->
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+
+</div>
+</td>
+
+<!-- SECOND ACHIEVEMENT CARD - MariaDB -->
+<td width="50%" valign="top">
+<div align="center">
+
+<!-- Target Icon -->
+🎯
+
+<br/><br/>
+
+<!-- Glowing Card Header -->
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=11&height=80&section=header&text=🎯%20IDEA%20SHORTLISTED%20🎯&fontSize=20&fontColor=00D9FF&animation=fadeIn&fontAlignY=55&stroke=00D9FF&strokeWidth=1"/>
+
+<br/>
+
+### **MARIADB COMPETITION**
+
+<br/>
+
+<!-- Neon Accent Line -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=gradient&customColorList=11"/>
+
+<br/>
+
+**🌟 SELECTED AMONG TOP**  
+**INNOVATIVE DATABASE SOLUTIONS**
+
+<br/>
+
+<!-- Badge Stack -->
+<img src="https://img.shields.io/badge/🎯_ACHIEVEMENT-SHORTLISTED-00d9ff?style=for-the-badge&labelColor=1a1a1a&color=00d9ff" alt="Shortlisted"/>
+
+<img src="https://img.shields.io/badge/🗄️_CATEGORY-DATABASE_INNOVATION-FF6B6B?style=for-the-badge&labelColor=1a1a1a&color=FF6B6B" alt="Category"/>
+
+<img src="https://img.shields.io/badge/⚡_STATUS-TOP_SELECTED-FFD700?style=for-the-badge&labelColor=1a1a1a&color=FFD700" alt="Status"/>
+
+<br/><br/>
+
+<!-- Particle Effect -->
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%"/>
+
+</div>
+</td>
+
+</tr>
+</table>
+
+<br/>
+
+<!-- Animated Sparkle Line -->
+<p align="center">
+  ✨━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━✨
+</p>
+
+<br/>
+
+<!-- ACHIEVEMENT STATISTICS BAR -->
+<table align="center">
+<tr>
+<td align="center">
+
+<img src="https://img.shields.io/badge/📊_TOTAL_AWARDS-2-FFD700?style=for-the-badge&logo=trophy&logoColor=white&labelColor=000000&color=FFD700" alt="Total Awards" height="35"/>
+<img src="https://img.shields.io/badge/🥇_GOLD_TROPHIES-1-FFD700?style=for-the-badge&logo=award&logoColor=white&labelColor=000000&color=FFD700" alt="Gold" height="35"/>
+<img src="https://img.shields.io/badge/🎯_COMPETITIONS-2-00d9ff?style=for-the-badge&logo=target&logoColor=white&labelColor=000000&color=00d9ff" alt="Competitions" height="35"/>
+<img src="https://img.shields.io/badge/🌟_EXCELLENCE-100%25-FF00FF?style=for-the-badge&logo=starship&logoColor=white&labelColor=000000&color=FF00FF" alt="Excellence" height="35"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- LIGHTNING ANIMATION FULL WIDTH -->
+<p align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="100%"/>
+</p>
+
+<br/>
+
+<!-- MOTIVATIONAL BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,11,20&height=100&section=footer&text=💡%20INNOVATION%20•%20EXCELLENCE%20•%20ACHIEVEMENT%20💡&fontSize=22&fontColor=fff&animation=twinkling&fontAlignY=55"/>
+
+<!-- Multi-Color Neon Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=5&color=0:FFD700,25:FF00FF,50:00D9FF,75:FF00FF,100:FFD700"/>
+
+<br/>
 
 </div>
 
 ---
 
+<!-- 6. AI BRAIN ANIMATION -->
 <div align="center">
 
 ## 🌟 **About Me** 🌟
 
-<!-- Animated Contribution Calendar -->
+<!-- Advanced AI Brain Animation -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400" alt="AI Brain"/>
+</p>
+
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:FF00FF"/>
+
+<br/>
+
 <img src="https://ghchart.rshah.org/00d9ff/aviralsri23455" alt="GitHub Contribution Chart" width="100%"/>
 
 </div>
@@ -131,7 +281,6 @@ achievements: {
 ### 💡 **Fun Fact**
 *NASA's Apollo 11 had less computing power than a modern smartphone!* 🚀📱
 
-<!-- Animated Line -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 </div>
@@ -140,20 +289,32 @@ achievements: {
 
 ---
 
+<!-- 7. TECH STACK CUBE / ORBITING TECH STACK -->
 <div align="center">
 
 ## 🛠️ **Tech Arsenal** 🛠️
 
-<!-- Animated Tech Header -->
+<!-- Animated Tech Robot -->
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
 
-<!-- Animated Tech Stack Icons -->
+<br/>
+
+<!-- Orbiting Tech Stack Visualization -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="300" alt="Orbiting Tech"/>
+</p>
+
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00D9FF,50:FFD700,100:FF00FF"/>
+
+<br/>
+
 <img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,react,nodejs,nextjs,express,mongodb,mysql,postgresql,redis,docker,kubernetes,aws,gcp,git,github,linux,bash&perline=10&theme=dark" />
 
 <br/><br/>
 
-<!-- Animated Category Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:FF00FF"/>
 
 ### **Frontend Magic** ✨
 
@@ -164,7 +325,6 @@ achievements: {
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=38B2AC&color=06B6D4" alt="TailwindCSS"/>
 </p>
 
-<!-- Animated Line Break -->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### **Backend Power** ⚡
@@ -176,7 +336,6 @@ achievements: {
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white&labelColor=ED8B00&color=007396" alt="Java"/>
 </p>
 
-<!-- Animated Line Break -->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### **Database Mastery** 🗄️
@@ -189,7 +348,6 @@ achievements: {
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white&labelColor=DC382D&color=A41E11" alt="Redis"/>
 </p>
 
-<!-- Animated Line Break -->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### **DevOps & Cloud** ☁️
@@ -202,7 +360,6 @@ achievements: {
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white&labelColor=2088FF&color=0052CC" alt="GitHub Actions"/>
 </p>
 
-<!-- Animated Line Break -->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 ### **AI & ML** 🤖
@@ -213,36 +370,38 @@ achievements: {
   <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=F7931E&color=FF9500" alt="Scikit-Learn"/>
 </p>
 
-<!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 </div>
 
 ---
 
+<!-- 8. CONTRIBUTION SNAKE -->
 <div align="center">
 
 ## 📊 **GitHub Analytics** 📊
 
-<!-- Animated Wave Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header&animation=twinkling"/>
+<!-- Animated Wave with Sparkles -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=140&section=header&animation=twinkling&text=📈%20PERFORMANCE%20METRICS%20📈&fontSize=25&fontColor=00D9FF"/>
 
-<!-- Animated Chart Icon -->
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+<!-- 9. GITHUB ANALYTICS -->
+<!-- Data Analysis Animation -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="120"/>
+</p>
 
 <br/>
 
-<!-- Animated Loading Text -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&repeat=true&width=600&lines=Analyzing+GitHub+Performance...;Calculating+Code+Metrics...;Generating+Statistics...;Building+Insights..." alt="Loading Analytics" />
+<!-- Enhanced Loading Text -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2000&pause=1000&color=00D9FF&center=true&vCenter=true&repeat=true&width=700&lines=🔍+Analyzing+GitHub+Performance...;📊+Calculating+Code+Metrics...;⚡+Generating+Real-Time+Statistics...;💡+Building+Insights+Dashboard..." alt="Loading Analytics" />
 
 <br/><br/>
 
-<!-- Animated Particle Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+<!-- NEON DIVIDER with Gradient -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:FFD700,50:00D9FF,100:FF00FF&animation=twinkling"/>
 
 <br/>
 
-<!-- GitHub Stats Cards with Animated Border -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
 <p align="center">
@@ -254,12 +413,19 @@ achievements: {
 
 <br/>
 
-<!-- Animated Pulse Divider -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br/>
 
-<!-- Contribution Graph with Animated Waves -->
+<!-- Contribution Snake Animation - FIXED PATH -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aviralsri23455/aviralsri23455/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aviralsri23455/aviralsri23455/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/aviralsri23455/aviralsri23455/output/github-contribution-grid-snake.svg">
+</picture>
+
+<br/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header&animation=twinkling"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=aviralsri23455&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&custom_title=Contribution%20Activity%20Graph" width="100%" alt="Contribution Graph"/>
@@ -268,12 +434,11 @@ achievements: {
 
 <br/>
 
-<!-- Animated Sparkle Effect -->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <br/>
 
-<!-- Language Stats with Animated Frames -->
+<!-- 10. SKYLINE STATS -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
 <p align="center">
@@ -285,12 +450,10 @@ achievements: {
 
 <br/>
 
-<!-- Animated Wave Separator -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br/>
 
-<!-- Additional Stats with Animated Border -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
 <p align="center">
@@ -302,12 +465,10 @@ achievements: {
 
 <br/>
 
-<!-- Animated Glow Effect -->
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <br/>
 
-<!-- Full Profile Summary with Animated Frame -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
 <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aviralsri23455&theme=tokyonight" alt="Profile Details"/>
@@ -316,14 +477,12 @@ achievements: {
 
 <br/>
 
-<!-- Animated Particle Effect -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <br/>
 
 ### 📈 **Contribution Highlights**
 
-<!-- Animated Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/Code-Always_Learning-00d9ff?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a" />
   <img src="https://img.shields.io/badge/Focus-Quality_Over_Quantity-FFD700?style=for-the-badge&logo=target&logoColor=white&labelColor=1a1a1a" />
@@ -332,12 +491,11 @@ achievements: {
 
 <br/>
 
-<!-- Animated Divider with Glow -->
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:FF00FF"/>
 
 <br/>
 
-<!-- GitHub Trophies with Animated Border -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
 <p align="center">
@@ -348,18 +506,17 @@ achievements: {
 
 <br/>
 
-<!-- Animated Wave Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling"/>
 
 </div>
 
 ---
 
+<!-- 11. LIVE CODING GIF -->
 <div align="center">
 
 ## 🎯 **Current Focus & Tech Stack** 🎯
 
-<!-- Animated Coding GIF -->
 <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
 
 <br/><br/>
@@ -401,19 +558,24 @@ achievements: {
 </tr>
 </table>
 
-<!-- Animated Separator -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 </div>
 
 ---
 
+<!-- 12. PROJECTS -->
 <div align="center">
 
 ## 💼 **Featured Projects** 💼
 
-<!-- Projects Header -->
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
+<!-- Rocket Animation -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100"/>
+</p>
+
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:FF00FF,50:00D9FF,100:FFD700"/>
 
 <br/>
 
@@ -461,67 +623,158 @@ achievements: {
 </tr>
 </table>
 
-<!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 </div>
 
 ---
 
+<!-- 13. DEVELOPER QUOTE - FIXED -->
 <div align="center">
 
-## 🌐 **Let's Connect & Collaborate!** 🌐
+## 💭 **Developer Quote** 💭
 
-<!-- Animated Handshake -->
-<img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="100">
+<br/>
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
+
+<br/>
+
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:FF00FF"/>
+
+</div>
+
+---
+
+<!-- 14. CONNECT SECTION -->
+<div align="center">
+
+<!-- Epic Connection Header -->
+<h2 align="center">🌐 Let's Connect & Collaborate! 🌐</h2>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&fontSize=35&fontColor=00D9FF&animation=twinkling&fontAlignY=38"/>
+
+<!-- Multi-Color Neon Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=5&color=0:00D9FF,25:FF00FF,50:FFD700,75:FF00FF,100:00D9FF"/>
+
+<br/>
+
+<!-- Working Animated Handshake Icon -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" alt="Handshake" width="150" height="150" />
+</p>
+
+<br/>
+
+<!-- Animated Globe and Code Icons -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="80"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="80"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="80"/>
+</p>
+
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00D9FF,50:FFD700,100:FF00FF"/>
 
 <br/>
 
 ### **Open to Exciting Opportunities in:**
 
-🔹 **Open Source Contributions** | **MERN Stack Projects** | **AI/ML Development**  
-🔹 **Cloud Architecture** | **DevOps Automation** | **Distributed Systems**
+<br/>
 
-<!-- Animated Tech Icons -->
+<table align="center">
+<tr>
+<td align="center" width="33%">
+💻
+<br/><br/>
+<strong>MERN Stack Projects</strong>
+<br/>Full-Stack Development
+</td>
+<td align="center" width="33%">
+🤖
+<br/><br/>
+<strong>AI/ML Development</strong>
+<br/>Machine Learning Solutions
+</td>
+<td align="center" width="33%">
+☁️
+<br/><br/>
+<strong>Cloud Architecture</strong>
+<br/>Scalable Infrastructure
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+⚙️
+<br/><br/>
+<strong>DevOps Automation</strong>
+<br/>CI/CD Pipelines
+</td>
+<td align="center" width="33%">
+📚
+<br/><br/>
+<strong>Open Source</strong>
+<br/>Community Contributions
+</td>
+<td align="center" width="33%">
+🚀
+<br/><br/>
+<strong>Distributed Systems</strong>
+<br/>Microservices Architecture
+</td>
+</tr>
+</table>
+
+<br/>
+
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 
 <br/>
 
 ### **📫 Get in Touch**
 
+<br/>
+
+<!-- Contact Badges in a Row -->
 <p align="center">
-  <a href="https://www.instagram.com/aviralsrivastava_009/">
-    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white&labelColor=E4405F" alt="Instagram"/>
-  </a>
-  <a href="mailto:aviralsrivastava50@outlook.com">
-    <img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&labelColor=0078D4" alt="Email"/>
-  </a>
-  <a href="https://github.com/aviralSri23455">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub"/>
-  </a>
+<a href="https://www.instagram.com/aviralsrivastava_009/">
+<img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white&labelColor=E4405F" alt="Instagram"/>
+</a>
+  &nbsp;&nbsp;&nbsp;
+<a href="mailto:aviralsrivastava50@outlook.com">
+<img src="https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white&labelColor=0078D4" alt="Email"/>
+</a>
+  &nbsp;&nbsp;&nbsp;
+<a href="https://github.com/aviralSri23455">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" alt="GitHub"/>
+</a>
 </p>
 
-<!-- Animated Quote -->
+<br/>
+
+<!-- NEON DIVIDER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:FF00FF"/>
+
+<br/>
+
+<!-- Animated Motto Banner -->
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=gradient&customColorList=6,11,20&height=100&section=header&text=💡%20INNOVATING%20AT%20THE%20INTERSECTION%20OF%20💡&fontSize=20&fontColor=00D9FF&animation=twinkling&fontAlignY=35&desc=CODE%20•%20CLOUD%20•%20INTELLIGENCE&descAlignY=65&descSize=16"/>
+
+<br/>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
 
 <br/>
 
-### **💡 "Innovating at the intersection of Code, Cloud & Intelligence"** 💡
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=2"/>
-
-<br/>
-
-<!-- Animated Developer GIF -->
+<!-- Coding Animation -->
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212748830-4c709398-a386-4761-84d7-9e10b98fbe6e.gif" width="500" alt="Coding"/>
 </p>
 
 <br/>
 
-<!-- Animated Stats Bar -->
+<!-- Status Badges -->
 <p align="center">
   <img src="https://img.shields.io/badge/🚀_Joined_GitHub-2023-00d9ff?style=for-the-badge&labelColor=1a1a1a" alt="Joined"/>
   <img src="https://img.shields.io/badge/💻_Building_the_Future-One_Commit_at_a_Time-FFD700?style=for-the-badge&labelColor=1a1a1a" alt="Building"/>
@@ -529,8 +782,20 @@ achievements: {
 
 <br/>
 
-<!-- Animated Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=fadeIn"/>
+<!-- Sparkle Line -->
+<p align="center">
+  ⭐━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⭐
+</p>
+
+<br/>
+
+<!-- 15. FOOTER WAVE -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=footer&animation=twinkling&text=⭐%20THANK%20YOU%20FOR%20VISITING%20⭐&fontSize=20&fontColor=00D9FF&fontAlignY=70"/>
+
+<!-- Final Badge -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Made_with-❤️_and_Code-FF69B4?style=for-the-badge&labelColor=000000" alt="Made with Love"/>
+  <img src="https://img.shields.io/badge/Status-Always_Learning-00D9FF?style=for-the-badge&labelColor=000000" alt="Status"/>
+</p>
 
 </div>
-
