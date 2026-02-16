@@ -273,15 +273,15 @@ achievements: {
 
 ## 🛠️ **Tech Arsenal** 🛠️
 
-<!-- Animated Tech Robot -->
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100">
-
 <br/>
 
-<!-- Orbiting Tech Stack Visualization -->
+<!-- Circular Loading Spinner -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="300" alt="Orbiting Tech"/>
+
+  <img src="https://i.imgur.com/6RMhx.gif" width="120" alt="Segment Loader"/>
+
 </p>
+<br/>
 
 <!-- NEON DIVIDER -->
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:00D9FF,50:FFD700,100:FF00FF"/>
@@ -656,26 +656,32 @@ achievements: {
 
 <br/>
 
-<!-- REDESIGNED: Modern Icon Cards with Gradient Badges -->
+<!-- Animated Icons with Modern Badges -->
 <table align="center" width="90%">
 <tr>
 <td align="center" width="33%">
-<img src="https://img.shields.io/badge/💻-MERN_STACK-00d9ff?style=for-the-badge&labelColor=0D1117&logoColor=white" height="50"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/Full--Stack_Development-181717?style=flat-square&logo=react&logoColor=00d9ff" alt="MERN"/>
-<br/><strong style="color: #00d9ff;">Building Modern Web Apps</strong>
+<img src="https://img.shields.io/badge/MERN_STACK-00d9ff?style=for-the-badge&logo=react&logoColor=white&labelColor=0D1117" height="40"/>
+<br/><br/>
+<strong>Full-Stack Development</strong>
+<br/>Building Modern Web Apps
 </td>
 <td align="center" width="33%">
-<img src="https://img.shields.io/badge/🤖-AI/ML-FF00FF?style=for-the-badge&labelColor=0D1117&logoColor=white" height="50"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="80"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/Machine_Learning-181717?style=flat-square&logo=tensorflow&logoColor=FF00FF" alt="AI/ML"/>
-<br/><strong style="color: #FF00FF;">Intelligent Solutions</strong>
+<img src="https://img.shields.io/badge/AI/ML-FF00FF?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0D1117" height="40"/>
+<br/><br/>
+<strong>Machine Learning</strong>
+<br/>Intelligent Solutions
 </td>
 <td align="center" width="33%">
-<img src="https://img.shields.io/badge/☁️-CLOUD-FFD700?style=for-the-badge&labelColor=0D1117&logoColor=white" height="50"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="80"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/Scalable_Infrastructure-181717?style=flat-square&logo=amazonaws&logoColor=FFD700" alt="Cloud"/>
-<br/><strong style="color: #FFD700;">Cloud Architecture</strong>
+<img src="https://img.shields.io/badge/CLOUD-FFD700?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0D1117" height="40"/>
+<br/><br/>
+<strong>Cloud Architecture</strong>
+<br/>Scalable Infrastructure
 </td>
 </tr>
 </table>
@@ -685,22 +691,28 @@ achievements: {
 <table align="center" width="90%">
 <tr>
 <td align="center" width="33%">
-<img src="https://img.shields.io/badge/⚙️-DEVOPS-00d9ff?style=for-the-badge&labelColor=0D1117&logoColor=white" height="50"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="80"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/CI/CD_Pipelines-181717?style=flat-square&logo=docker&logoColor=00d9ff" alt="DevOps"/>
-<br/><strong style="color: #00d9ff;">Automation Expert</strong>
+<img src="https://img.shields.io/badge/DEVOPS-00d9ff?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117" height="40"/>
+<br/><br/>
+<strong>CI/CD Pipelines</strong>
+<br/>Automation Expert
 </td>
 <td align="center" width="33%">
-<img src="https://img.shields.io/badge/📚-OPEN_SOURCE-success?style=for-the-badge&labelColor=0D1117&logoColor=white" height="50"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="80"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/Community_Contributions-181717?style=flat-square&logo=github&logoColor=28a745" alt="Open Source"/>
-<br/><strong style="color: #28a745;">Collaborative Projects</strong>
+<img src="https://img.shields.io/badge/OPEN_SOURCE-28a745?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" height="40"/>
+<br/><br/>
+<strong>Community Contributions</strong>
+<br/>Collaborative Projects
 </td>
 <td align="center" width="33%">
-<img src="https://img.shields.io/badge/🚀-MICROSERVICES-FF6B6B?style=for-the-badge&labelColor=0D1117&logoColor=white" height="50"/>
+<img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/Distributed_Systems-181717?style=flat-square&logo=kubernetes&logoColor=FF6B6B" alt="Microservices"/>
-<br/><strong style="color: #FF6B6B;">Scalable Architecture</strong>
+<img src="https://img.shields.io/badge/MICROSERVICES-FF6B6B?style=for-the-badge&logo=kubernetes&logoColor=white&labelColor=0D1117" height="40"/>
+<br/><br/>
+<strong>Distributed Systems</strong>
+<br/>Scalable Architecture
 </td>
 </tr>
 </table>
