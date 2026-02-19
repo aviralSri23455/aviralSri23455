@@ -54,58 +54,102 @@
 ---
 
 <!-- ██████████████████████████████████████████████████████ -->
-<!--          ACHIEVEMENT BROADCAST — CINEMATIC             -->
+<!--       ACHIEVEMENT BROADCAST — NEXT LEVEL REDESIGN     -->
 <!-- ██████████████████████████████████████████████████████ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=0,2,2,5,30&height=140&section=header&text=%F0%9F%8F%86%20%20HALL%20OF%20EXCELLENCE%20%20%F0%9F%8F%86&fontSize=36&fontColor=FFD700&animation=blinking&stroke=FFD700&strokeWidth=2"/>
-
-<br/>
+<!-- SECTION ENTRY — VENOM BURST -->
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=2,4,12,20,30&height=200&section=header&text=%F0%9F%8F%86%20HALL%20OF%20EXCELLENCE%20%F0%9F%8F%86&fontSize=40&fontColor=FFD700&animation=fadeIn&fontAlignY=50&stroke=FFD700&strokeWidth=3&desc=RECOGNITIONS%20%E2%80%A2%20AWARDS%20%E2%80%A2%20ELITE%20ACHIEVEMENTS&descAlignY=75&descColor=ffffff&descSize=16"/>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="95%"/>
 
-<br/><br/>
+<br/>
 
-<!-- DUAL HOLOGRAPHIC TROPHIES -->
-<table width="96%" cellpadding="0" cellspacing="10">
+<!-- CARD 01 — ERINE AI — FULL WIDTH WAVING BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,4,12,20&height=220&section=header&text=%F0%9F%8F%86%20%20ERINE%20AI%20DEVELOPER%20CHALLENGE&fontSize=34&fontColor=FFD700&animation=twinkling&fontAlignY=42&stroke=FFD700&strokeWidth=2&desc=%E2%9C%A6%20%201ST%20PLACE%20WINNER%20%20%E2%80%A2%20%20AI%20INNOVATION%20%20%E2%80%A2%20%20GOLD%20TROPHY%20%20%E2%9C%A6&descAlignY=72&descColor=ffffff&descSize=18" width="100%"/>
+
+<br/>
+
+<!-- ERINE DETAIL BADGES — 2x2 GRID -->
+<table width="70%" cellspacing="6">
 <tr>
-
-<td width="50%" align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3,12,20&height=280&section=header&text=%F0%9F%8F%86%20ERINE%20AI%0ADEVELOPER%20CHALLENGE&fontSize=26&fontColor=FFD700&animation=twinkling&fontAlignY=38&stroke=FFD700&strokeWidth=2&desc=1ST%20PLACE%20%E2%80%A2%20AI%20INNOVATION%20%E2%80%A2%20GOLD%20TROPHY&descAlignY=72&descColor=ffffff&descSize=14"/>
-<br/>
-<img src="https://img.shields.io/badge/ACHIEVEMENT-1ST%20PLACE%20WINNER-FFD700?style=for-the-badge&labelColor=0D1117" height="28"/>
-<br/>
-<img src="https://img.shields.io/badge/DOMAIN-AI%20%26%20MACHINE%20LEARNING-00FFFF?style=for-the-badge&labelColor=0D1117" height="28"/>
-<br/>
-<img src="https://img.shields.io/badge/RESULT-GOLD%20TROPHY%20%F0%9F%8F%86-FF00FF?style=for-the-badge&labelColor=0D1117" height="28"/>
+<td align="center">
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20STATUS-1ST%20PLACE%20WINNER-FFD700?style=for-the-badge&labelColor=0a0800" height="34"/>
 </td>
-
-<td width="50%" align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,16,20,24&height=280&section=header&text=%F0%9F%8E%AF%20MARIADB%0AINNOVATION%20AWARD&fontSize=26&fontColor=00FFFF&animation=twinkling&fontAlignY=38&stroke=00FFFF&strokeWidth=2&desc=SHORTLISTED%20%E2%80%A2%20DATABASE%20INNOVATION%20%E2%80%A2%20TOP%20TIER&descAlignY=72&descColor=ffffff&descSize=14"/>
-<br/>
-<img src="https://img.shields.io/badge/ACHIEVEMENT-IDEA%20SHORTLISTED-00FFFF?style=for-the-badge&labelColor=0D1117" height="28"/>
-<br/>
-<img src="https://img.shields.io/badge/DOMAIN-DATABASE%20INNOVATION-FFD700?style=for-the-badge&labelColor=0D1117" height="28"/>
-<br/>
-<img src="https://img.shields.io/badge/RESULT-TOP%20SELECTED%20%F0%9F%8E%AF-FF6B6B?style=for-the-badge&labelColor=0D1117" height="28"/>
+<td align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%A7%A0%20DOMAIN-AI%20%26%20MACHINE%20LEARNING-00FFFF?style=for-the-badge&labelColor=001520" height="34"/>
 </td>
-
+</tr>
+<tr>
+<td align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%8F%86%20AWARD-GOLD%20TROPHY-FF9900?style=for-the-badge&labelColor=100800" height="34"/>
+</td>
+<td align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%9A%80%20IMPACT-GLOBAL%20RECOGNITION-FF00FF?style=for-the-badge&labelColor=150015" height="34"/>
+</td>
 </tr>
 </table>
 
 <br/>
 
-<!-- STATS STRIP -->
-<p>
-  <img src="https://img.shields.io/badge/%E2%96%88%20COMPETITIONS%20ENTERED-2-00FFFF?style=for-the-badge&labelColor=050510" height="34"/>
-  <img src="https://img.shields.io/badge/%E2%96%88%20TROPHIES%20WON-1%20GOLD-FFD700?style=for-the-badge&labelColor=050510" height="34"/>
-  <img src="https://img.shields.io/badge/%E2%96%88%20EXCELLENCE%20SCORE-100%25-FF00FF?style=for-the-badge&labelColor=050510" height="34"/>
-  <img src="https://img.shields.io/badge/%E2%96%88%20RANK-TOP%20DEVELOPER-FF4444?style=for-the-badge&labelColor=050510" height="34"/>
-</p>
+<!-- DIVIDER BETWEEN CARDS -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:FFD700,50:FF9900,100:FFD700" width="80%"/>
 
 <br/>
+
+<!-- CARD 02 — MARIADB — FULL WIDTH WAVING BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,16,20,24,30&height=220&section=footer&text=%F0%9F%8E%AF%20%20MARIADB%20INNOVATION%20AWARD&fontSize=34&fontColor=00FFFF&animation=twinkling&fontAlignY=38&stroke=00FFFF&strokeWidth=2&desc=%E2%9C%A6%20%20IDEA%20SHORTLISTED%20%20%E2%80%A2%20%20DATABASE%20INNOVATION%20%20%E2%80%A2%20%20TOP%20TIER%20%20%E2%9C%A6&descAlignY=65&descColor=ffffff&descSize=18" width="100%"/>
+
+<br/>
+
+<!-- MARIADB DETAIL BADGES — 2x2 GRID -->
+<table width="70%" cellspacing="6">
+<tr>
+<td align="center">
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20STATUS-IDEA%20SHORTLISTED-00FFFF?style=for-the-badge&labelColor=001520" height="34"/>
+</td>
+<td align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%97%84%EF%B8%8F%20DOMAIN-DATABASE%20INNOVATION-FFD700?style=for-the-badge&labelColor=151000" height="34"/>
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%8E%AF%20RESULT-TOP%20SELECTED-FF6B6B?style=for-the-badge&labelColor=150005" height="34"/>
+</td>
+<td align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%8C%90%20REACH-INTERNATIONAL%20LEVEL-00FF88?style=for-the-badge&labelColor=001510" height="34"/>
+</td>
+</tr>
+</table>
+
+<br/>
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="95%"/>
+
+<br/>
+
+<!-- STATS — 2x2 COMMAND GRID -->
+<table width="75%" cellspacing="8">
+<tr>
+<td align="center">
+  <img src="https://img.shields.io/badge/COMPETITIONS-2%20ENTERED-00FFFF?style=for-the-badge&labelColor=001520" height="38"/>
+</td>
+<td align="center">
+  <img src="https://img.shields.io/badge/TROPHIES-1%20GOLD%20%F0%9F%8F%86-FFD700?style=for-the-badge&labelColor=151000" height="38"/>
+</td>
+</tr>
+<tr>
+<td align="center">
+  <img src="https://img.shields.io/badge/EXCELLENCE-SCORE%20100%25-FF00FF?style=for-the-badge&labelColor=150015" height="38"/>
+</td>
+<td align="center">
+  <img src="https://img.shields.io/badge/RANK-TOP%20DEVELOPER%20%E2%9A%A1-FF4444?style=for-the-badge&labelColor=150000" height="38"/>
+</td>
+</tr>
+</table>
+
+<br/>
 
 </div>
 
@@ -145,11 +189,10 @@
 ```typescript
 interface Developer {
   name:        "Aviral Srivastava";
-  role:        "Full-Stack Developer";
+  role:        "Full Stack AI Developer";
   location:    "India 🇮🇳";
   
   passions:    [
-    "AI / ML Architecture",
     "DevOps & Cloud Infra",
     "Scalable Microservices",
   ];
@@ -159,8 +202,6 @@ interface Developer {
 
   openTo: [
     "Open Source Collabs",
-    "Cutting-Edge Startups",
-    "MNC Opportunities",
   ];
 }
 ```
@@ -620,7 +661,7 @@ const levelingUp = [
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=LET%27S%20BUILD%20THE%20FUTURE&fontSize=42&fontColor=00FFFF&animation=twinkling&fontAlignY=45&stroke=FF00FF&strokeWidth=2&desc=Open%20to%20Collaboration%20%7C%20Global%20Teams&descAlignY=70&descColor=FFD700&descSize=16"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=LET%27S%20BUILD%20THE%20FUTURE&fontSize=42&fontColor=00FFFF&animation=twinkling&fontAlignY=45&stroke=FF00FF&strokeWidth=2&desc=Open%20to%20Collaboration%20%7C%20MNCs%20%7C%20Startups%20%7C%20Global%20Teams&descAlignY=70&descColor=FFD700&descSize=16"/>
 
 <br/>
 
