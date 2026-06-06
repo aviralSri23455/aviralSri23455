@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="900" height="180">
+  <rect width="900" height="180" fill="#0d1117"/>
+  
+  <!-- Card 1: Erine AI -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.3s" fill="freeze"/>
+    <rect x="20" y="15" width="200" height="150" rx="8" fill="#161b22" stroke="#FFD700" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="120" y="55" text-anchor="middle" font-size="26">&#x1F3C6;</text>
+    <text x="120" y="82" text-anchor="middle" font-family="monospace" font-size="12" fill="#FFD700" font-weight="bold">Erine AI</text>
+    <text x="120" y="108" text-anchor="middle" font-family="monospace" font-size="20" fill="#ffffff" font-weight="bold">1st Place</text>
+    <text x="120" y="130" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">AI/ML CATEGORY</text>
+  </g>
+
+  <!-- Card 2: MariaDB -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze"/>
+    <rect x="237" y="15" width="200" height="150" rx="8" fill="#161b22" stroke="#00FFFF" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </rect>
+    <text x="337" y="55" text-anchor="middle" font-size="26">&#x1F3C6;</text>
+    <text x="337" y="82" text-anchor="middle" font-family="monospace" font-size="12" fill="#00FFFF" font-weight="bold">MariaDB</text>
+    <text x="337" y="108" text-anchor="middle" font-family="monospace" font-size="20" fill="#ffffff" font-weight="bold">Top Finish</text>
+    <text x="337" y="130" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">DATABASE INNOVATION</text>
+  </g>
+
+  <!-- Card 3: AWS -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.9s" fill="freeze"/>
+    <rect x="454" y="15" width="200" height="150" rx="8" fill="#161b22" stroke="#FF9900" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </rect>
+    <text x="554" y="55" text-anchor="middle" font-size="26">&#x2601;&#xFE0F;</text>
+    <text x="554" y="82" text-anchor="middle" font-family="monospace" font-size="12" fill="#FF9900" font-weight="bold">AWS Hackathon</text>
+    <text x="554" y="108" text-anchor="middle" font-family="monospace" font-size="20" fill="#ffffff" font-weight="bold">Top 1,000</text>
+    <text x="554" y="130" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">CLOUD ARCHITECTURE</text>
+  </g>
+
+  <!-- Card 4: ShikshaLokam -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.2s" fill="freeze"/>
+    <rect x="671" y="15" width="200" height="150" rx="8" fill="#161b22" stroke="#BB66FF" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    </rect>
+    <text x="771" y="55" text-anchor="middle" font-size="26">&#x1F4DA;</text>
+    <text x="771" y="82" text-anchor="middle" font-family="monospace" font-size="12" fill="#BB66FF" font-weight="bold">ShikshaLokam</text>
+    <text x="771" y="108" text-anchor="middle" font-family="monospace" font-size="20" fill="#ffffff" font-weight="bold">Top 12</text>
+    <text x="771" y="130" text-anchor="middle" font-family="monospace" font-size="9" fill="#8b949e">EDTECH CHALLENGE</text>
+  </g>
+</svg>

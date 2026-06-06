@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150">
+  <rect width="900" height="150" fill="#0d1117"/>
+
+  <!-- Animated waveform across the top -->
+  <path d="M0,30 Q50,10 100,30 Q150,50 200,30 Q250,10 300,30 Q350,50 400,30 Q450,10 500,30 Q550,50 600,30 Q650,10 700,30 Q750,50 800,30 Q850,10 900,30" fill="none" stroke="#00FFFF" stroke-width="1.5" stroke-opacity="0.4">
+    <animate attributeName="d" values="M0,30 Q50,10 100,30 Q150,50 200,30 Q250,10 300,30 Q350,50 400,30 Q450,10 500,30 Q550,50 600,30 Q650,10 700,30 Q750,50 800,30 Q850,10 900,30;M0,30 Q50,50 100,30 Q150,10 200,30 Q250,50 300,30 Q350,10 400,30 Q450,50 500,30 Q550,10 600,30 Q650,50 700,30 Q750,10 800,30 Q850,50 900,30;M0,30 Q50,10 100,30 Q150,50 200,30 Q250,10 300,30 Q350,50 400,30 Q450,10 500,30 Q550,50 600,30 Q650,10 700,30 Q750,50 800,30 Q850,10 900,30" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,35 Q50,55 100,35 Q150,15 200,35 Q250,55 300,35 Q350,15 400,35 Q450,55 500,35 Q550,15 600,35 Q650,55 700,35 Q750,15 800,35 Q850,55 900,35" fill="none" stroke="#FF6B9D" stroke-width="1" stroke-opacity="0.25">
+    <animate attributeName="d" values="M0,35 Q50,55 100,35 Q150,15 200,35 Q250,55 300,35 Q350,15 400,35 Q450,55 500,35 Q550,15 600,35 Q650,55 700,35 Q750,15 800,35 Q850,55 900,35;M0,35 Q50,15 100,35 Q150,55 200,35 Q250,15 300,35 Q350,55 400,35 Q450,15 500,35 Q550,55 600,35 Q650,15 700,35 Q750,55 800,35 Q850,15 900,35;M0,35 Q50,55 100,35 Q150,15 200,35 Q250,55 300,35 Q350,15 400,35 Q450,55 500,35 Q550,15 600,35 Q650,55 700,35 Q750,15 800,35 Q850,55 900,35" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,32 Q60,18 120,32 Q180,46 240,32 Q300,18 360,32 Q420,46 480,32 Q540,18 600,32 Q660,46 720,32 Q780,18 840,32 Q870,46 900,32" fill="none" stroke="#BB66FF" stroke-width="0.8" stroke-opacity="0.2">
+    <animate attributeName="d" values="M0,32 Q60,18 120,32 Q180,46 240,32 Q300,18 360,32 Q420,46 480,32 Q540,18 600,32 Q660,46 720,32 Q780,18 840,32 Q870,46 900,32;M0,32 Q60,46 120,32 Q180,18 240,32 Q300,46 360,32 Q420,18 480,32 Q540,46 600,32 Q660,18 720,32 Q780,46 840,32 Q870,18 900,32;M0,32 Q60,18 120,32 Q180,46 240,32 Q300,18 360,32 Q420,46 480,32 Q540,18 600,32 Q660,46 720,32 Q780,18 840,32 Q870,46 900,32" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Floating particles -->
+  <circle cx="100" cy="80" r="2" fill="#00FFFF" opacity="0.6">
+    <animate attributeName="cy" values="80;60;80" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="100" r="1.5" fill="#FF6B9D" opacity="0.5">
+    <animate attributeName="cy" values="100;75;100" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="400" cy="90" r="2" fill="#BB66FF" opacity="0.4">
+    <animate attributeName="cy" values="90;65;90" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="550" cy="85" r="1.5" fill="#FFBD2E" opacity="0.5">
+    <animate attributeName="cy" values="85;60;85" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="700" cy="95" r="2" fill="#27C93F" opacity="0.4">
+    <animate attributeName="cy" values="95;70;95" dur="5.5s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="5.5s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="820" cy="75" r="1.5" fill="#00FFFF" opacity="0.5">
+    <animate attributeName="cy" values="75;55;75" dur="4s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+
+  <!-- Main text -->
+  <text x="450" y="85" text-anchor="middle" font-family="monospace" font-size="14" fill="#ffffff" font-weight="bold" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.5s" fill="freeze"/>
+    Built with &#x26A1; by Aviral Srivastava
+  </text>
+  
+  <text x="450" y="110" text-anchor="middle" font-family="monospace" font-size="11" fill="#00FFFF" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1s" fill="freeze"/>
+    Bangalore, India &#x1F1EE;&#x1F1F3; | Open to collaborate globally
+  </text>
+
+  <!-- Bottom waveform (mirror) -->
+  <path d="M0,130 Q50,120 100,130 Q150,140 200,130 Q250,120 300,130 Q350,140 400,130 Q450,120 500,130 Q550,140 600,130 Q650,120 700,130 Q750,140 800,130 Q850,120 900,130" fill="none" stroke="#00FFFF" stroke-width="1" stroke-opacity="0.2">
+    <animate attributeName="d" values="M0,130 Q50,120 100,130 Q150,140 200,130 Q250,120 300,130 Q350,140 400,130 Q450,120 500,130 Q550,140 600,130 Q650,120 700,130 Q750,140 800,130 Q850,120 900,130;M0,130 Q50,140 100,130 Q150,120 200,130 Q250,140 300,130 Q350,120 400,130 Q450,140 500,130 Q550,120 600,130 Q650,140 700,130 Q750,120 800,130 Q850,140 900,130;M0,130 Q50,120 100,130 Q150,140 200,130 Q250,120 300,130 Q350,140 400,130 Q450,120 500,130 Q550,140 600,130 Q650,120 700,130 Q750,140 800,130 Q850,120 900,130" dur="5s" repeatCount="indefinite"/>
+  </path>
+</svg>
