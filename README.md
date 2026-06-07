@@ -5,7 +5,9 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/images/ai-bot.jpg" alt="AI Engineering" width="100%"/>
+  
+  <br/><br/>
+  <img src="./assets/images/ai-robot-walking.gif" alt="AI Robot Walking" width="500"/>
 </div>
 
 <br/>
@@ -28,14 +30,6 @@
 
 <div align="center">
   <img src="./assets/svgs/tech-stack.svg" alt="Tech Stack" width="100%"/>
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<!-- ═══════ TECH STACK CUBE ═══════ -->
-
-<div align="center">
-  <img src="./assets/svgs/tech-cube.svg" alt="3D Tech Cube" width="100%"/>
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
