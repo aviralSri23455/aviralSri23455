@@ -7,7 +7,7 @@
 <div align="center">
   
   <br/><br/>
-  <img src="./assets/images/ai-robot-walking.gif" alt="AI Robot Walking" width="90%"/>
+  <img src="./assets/images/ai-robot-walking.gif" alt="AI Robot Walking" width="80%"/>
 </div>
 
 <br/>
