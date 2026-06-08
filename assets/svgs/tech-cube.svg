@@ -1,68 +1,143 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-label="3D Rotating Tech Stack Cube">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
   <defs>
-    <radialGradient id="cbg" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#0a1530"/>
-      <stop offset="100%" stop-color="#04060d"/>
-    </radialGradient>
-    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#ff00e5" stop-opacity="0.18"/>
-    </linearGradient>
-    <filter id="cg"><feGaussianBlur stdDeviation="1.4"/></filter>
+    <clipPath id="cubeClip"><rect x="0" y="0" width="600" height="600" rx="10"/></clipPath>
   </defs>
-  <rect width="600" height="600" fill="url(#cbg)"/>
+  <rect width="600" height="600" rx="10" fill="#04060d"/>
 
-  <!-- subtle grid -->
-  <g stroke="#00ffff" stroke-opacity="0.06">
-    <path d="M0 300 H600 M300 0 V600"/>
-    <circle cx="300" cy="300" r="220" fill="none"/>
-    <circle cx="300" cy="300" r="160" fill="none"/>
-    <circle cx="300" cy="300" r="100" fill="none"/>
+  <!-- ═══ TRIPLE ROTATING BORDER BEAMS ═══ -->
+  <rect x="1" y="1" width="598" height="598" rx="10" fill="none" stroke="#00FFFF" stroke-width="2" stroke-dasharray="100 2300" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="2400" to="0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="598" height="598" rx="10" fill="none" stroke="#FF00E5" stroke-width="1.2" stroke-dasharray="60 2340" stroke-linecap="round" opacity="0.6">
+    <animate attributeName="stroke-dashoffset" from="0" to="2400" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="1" y="1" width="598" height="598" rx="10" fill="none" stroke="#7afcff" stroke-width="0.8" stroke-dasharray="30 2370" stroke-linecap="round" opacity="0.4">
+    <animate attributeName="stroke-dashoffset" from="2400" to="0" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ HOLOGRAPHIC SCAN ═══ -->
+  <rect x="0" y="0" width="600" height="3" fill="#00FFFF" opacity="0" clip-path="url(#cubeClip)">
+    <animate attributeName="y" values="-3;603" dur="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.35;0.35;0" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ GRID with breathing ═══ -->
+  <g stroke="#00ffff" fill="none">
+    <line x1="300" y1="0" x2="300" y2="600" stroke-opacity="0.04"/>
+    <line x1="0" y1="300" x2="600" y2="300" stroke-opacity="0.04"/>
+    <circle cx="300" cy="300" r="220" stroke-opacity="0">
+      <animate attributeName="stroke-opacity" values="0.03;0.1;0.03" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="218;222;218" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="300" r="160" stroke-opacity="0" stroke-dasharray="8 8">
+      <animate attributeName="stroke-opacity" values="0.03;0.08;0.03" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+      <animate attributeName="r" values="158;162;158" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="300" cy="300" r="100" stroke-opacity="0">
+      <animate attributeName="stroke-opacity" values="0.04;0.12;0.04" dur="3s" repeatCount="indefinite" begin="1s"/>
+      <animate attributeName="r" values="98;102;98" dur="3s" repeatCount="indefinite" begin="1s"/>
+    </circle>
   </g>
 
-  <!-- Rotating cube via transform animation -->
-  <g transform="translate(300 300)">
+  <!-- ═══ ROTATING CUBE ═══ -->
+  <g transform="translate(300 280)">
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
       <!-- Back face -->
       <g transform="skewY(-20) translate(-120 -60)">
-        <rect x="-90" y="-90" width="180" height="180" fill="url(#face)" stroke="#ff00e5" stroke-opacity="0.7"/>
-        <text x="0" y="-10" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="18" fill="#ff00e5" font-weight="700">AI / ML</text>
-        <text x="0" y="14" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#ffb8f0">PyTorch</text>
-        <text x="0" y="30" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#ffb8f0">LangChain</text>
-        <text x="0" y="46" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#ffb8f0">OpenAI</text>
+        <rect x="-90" y="-90" width="180" height="180" fill="#ff00e5" fill-opacity="0.08" stroke="#ff00e5" stroke-opacity="0.7" stroke-width="1.5"/>
+        <!-- Face rotating beam -->
+        <rect x="-90" y="-90" width="180" height="180" fill="none" stroke="#ff00e5" stroke-width="1" stroke-dasharray="30 690" stroke-linecap="round" opacity="0.6">
+          <animate attributeName="stroke-dashoffset" from="720" to="0" dur="3s" repeatCount="indefinite"/>
+        </rect>
+        <text x="0" y="-15" text-anchor="middle" font-family="monospace" font-size="16" fill="#ff00e5" font-weight="bold">AI / ML</text>
+        <text x="0" y="10" text-anchor="middle" font-family="monospace" font-size="11" fill="#ffb8f0">PyTorch</text>
+        <text x="0" y="28" text-anchor="middle" font-family="monospace" font-size="11" fill="#ffb8f0">LangChain</text>
+        <text x="0" y="46" text-anchor="middle" font-family="monospace" font-size="11" fill="#ffb8f0">OpenAI</text>
       </g>
       <!-- Right face -->
       <g transform="skewY(20) translate(120 -60)">
-        <rect x="-90" y="-90" width="180" height="180" fill="url(#face)" stroke="#00ffff" stroke-opacity="0.8"/>
-        <text x="0" y="-10" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="18" fill="#00ffff" font-weight="700">FRONTEND</text>
-        <text x="0" y="14" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#b8fbff">React / Next</text>
-        <text x="0" y="30" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#b8fbff">TypeScript</text>
-        <text x="0" y="46" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#b8fbff">Tailwind</text>
+        <rect x="-90" y="-90" width="180" height="180" fill="#00ffff" fill-opacity="0.06" stroke="#00ffff" stroke-opacity="0.8" stroke-width="1.5"/>
+        <rect x="-90" y="-90" width="180" height="180" fill="none" stroke="#00ffff" stroke-width="1" stroke-dasharray="30 690" stroke-linecap="round" opacity="0.6">
+          <animate attributeName="stroke-dashoffset" from="720" to="0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+        </rect>
+        <text x="0" y="-15" text-anchor="middle" font-family="monospace" font-size="16" fill="#00ffff" font-weight="bold">FRONTEND</text>
+        <text x="0" y="10" text-anchor="middle" font-family="monospace" font-size="11" fill="#b8fbff">React / Next</text>
+        <text x="0" y="28" text-anchor="middle" font-family="monospace" font-size="11" fill="#b8fbff">TypeScript</text>
+        <text x="0" y="46" text-anchor="middle" font-family="monospace" font-size="11" fill="#b8fbff">Tailwind</text>
       </g>
       <!-- Front face -->
       <g transform="translate(0 90)">
-        <rect x="-90" y="-90" width="180" height="180" fill="url(#face)" stroke="#7afcff" stroke-opacity="0.9"/>
-        <text x="0" y="-10" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="18" fill="#fff" font-weight="700">BACKEND</text>
-        <text x="0" y="14" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#dffbff">Node · FastAPI</text>
-        <text x="0" y="30" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#dffbff">Postgres · Redis</text>
-        <text x="0" y="46" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" fill="#dffbff">GraphQL</text>
+        <rect x="-90" y="-90" width="180" height="180" fill="#7afcff" fill-opacity="0.05" stroke="#7afcff" stroke-opacity="0.9" stroke-width="1.5"/>
+        <rect x="-90" y="-90" width="180" height="180" fill="none" stroke="#7afcff" stroke-width="1" stroke-dasharray="30 690" stroke-linecap="round" opacity="0.6">
+          <animate attributeName="stroke-dashoffset" from="0" to="720" dur="4s" repeatCount="indefinite" begin="1s"/>
+        </rect>
+        <text x="0" y="-15" text-anchor="middle" font-family="monospace" font-size="16" fill="#fff" font-weight="bold">BACKEND</text>
+        <text x="0" y="10" text-anchor="middle" font-family="monospace" font-size="11" fill="#dffbff">Node · FastAPI</text>
+        <text x="0" y="28" text-anchor="middle" font-family="monospace" font-size="11" fill="#dffbff">Postgres · Redis</text>
+        <text x="0" y="46" text-anchor="middle" font-family="monospace" font-size="11" fill="#dffbff">GraphQL</text>
       </g>
     </g>
   </g>
 
-  <!-- Orbiting satellites -->
-  <g filter="url(#cg)">
-    <circle r="6" fill="#00ffff">
-      <animateMotion dur="6s" repeatCount="indefinite" path="M300,80 a220,220 0 1,1 -0.1,0"/>
-    </circle>
-    <circle r="5" fill="#ff00e5">
-      <animateMotion dur="9s" repeatCount="indefinite" path="M300,140 a160,160 0 1,0 -0.1,0"/>
-    </circle>
-    <circle r="4" fill="#7afcff">
-      <animateMotion dur="4s" repeatCount="indefinite" path="M300,200 a100,100 0 1,1 -0.1,0"/>
-    </circle>
-  </g>
+  <!-- ═══ ENHANCED ORBITING SATELLITES ═══ -->
+  <circle r="6" fill="#00ffff">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M300,80 a220,220 0 1,1 -0.1,0"/>
+    <animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Trail for satellite 1 -->
+  <circle r="3" fill="#00ffff" opacity="0.3">
+    <animateMotion dur="6s" repeatCount="indefinite" begin="-0.3s" path="M300,80 a220,220 0 1,1 -0.1,0"/>
+  </circle>
+  <circle r="5" fill="#ff00e5">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M300,140 a160,160 0 1,0 -0.1,0"/>
+    <animate attributeName="r" values="3;6;3" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#ff00e5" opacity="0.3">
+    <animateMotion dur="9s" repeatCount="indefinite" begin="-0.4s" path="M300,140 a160,160 0 1,0 -0.1,0"/>
+  </circle>
+  <circle r="4" fill="#7afcff">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M300,200 a100,100 0 1,1 -0.1,0"/>
+    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" fill="#7afcff" opacity="0.3">
+    <animateMotion dur="4s" repeatCount="indefinite" begin="-0.2s" path="M300,200 a100,100 0 1,1 -0.1,0"/>
+  </circle>
+  <!-- 4th satellite (new) -->
+  <circle r="3" fill="#FFBD2E">
+    <animateMotion dur="12s" repeatCount="indefinite" path="M300,50 a250,250 0 1,0 -0.1,0"/>
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
 
-  <text x="300" y="570" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" fill="#7afcff" letter-spacing="4">TECH · STACK · CORE</text>
+  <!-- ═══ FLOATING PARTICLES ═══ -->
+  <circle cx="80" cy="100" r="1.5" fill="#00FFFF" opacity="0">
+    <animate attributeName="cy" values="100;70;100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="520" cy="80" r="1" fill="#FF00E5" opacity="0">
+    <animate attributeName="cy" values="80;55;80" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="100" cy="500" r="1.5" fill="#7afcff" opacity="0">
+    <animate attributeName="cy" values="500;475;500" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="500" cy="520" r="1" fill="#FFBD2E" opacity="0">
+    <animate attributeName="cy" values="520;495;520" dur="4s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="4s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+
+  <!-- ═══ BOTTOM LABEL with glitch ═══ -->
+  <text x="300" y="565" text-anchor="middle" font-family="monospace" font-size="12" fill="#7afcff" letter-spacing="4" opacity="0">
+    TECH · STACK · CORE
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="1s" fill="freeze"/>
+  </text>
+  <text x="301" y="565" text-anchor="middle" font-family="monospace" font-size="12" fill="#ff00e5" letter-spacing="4" opacity="0">
+    TECH · STACK · CORE
+    <animate attributeName="opacity" values="0;0.3;0;0;0;0;0;0;0;0" dur="4s" repeatCount="indefinite" begin="3s"/>
+    <animate attributeName="x" values="301;299;301" dur="0.08s" repeatCount="indefinite" begin="3s"/>
+  </text>
 </svg>

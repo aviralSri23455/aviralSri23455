@@ -1,40 +1,234 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" width="620" height="180">
-  <rect width="620" height="180" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <clipPath id="panel1Clip"><rect x="30" y="10" width="400" height="200" rx="10"/></clipPath>
+    <clipPath id="panel2Clip"><rect x="470" y="10" width="400" height="200" rx="10"/></clipPath>
+    <clipPath id="bar1Clip"><rect x="490" y="74" width="255" height="9" rx="4"/></clipPath>
+    <clipPath id="bar2Clip"><rect x="490" y="111" width="221" height="9" rx="4"/></clipPath>
+    <clipPath id="bar3Clip"><rect x="490" y="148" width="170" height="9" rx="4"/></clipPath>
+    <clipPath id="bar4Clip"><rect x="490" y="185" width="68" height="9" rx="4"/></clipPath>
+  </defs>
 
-  <!-- Panel 1: Real GitHub Stats -->
-  <rect x="15" y="10" width="280" height="160" rx="8" fill="#161b22" stroke="#00FFFF" stroke-width="0.8">
-    <animate attributeName="stroke-opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+  <rect width="900" height="220" fill="#0d1117"/>
+
+  <!-- ═══ PANEL 1: GITHUB OVERVIEW ═══ -->
+  <rect x="30" y="10" width="400" height="200" rx="10" fill="#161b22"/>
+  
+  <!-- Triple rotating border beams -->
+  <rect x="30" y="10" width="400" height="200" rx="10" fill="none" stroke="#00FFFF" stroke-width="2" stroke-dasharray="80 1120" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="3s" repeatCount="indefinite"/>
   </rect>
-  <text x="35" y="35" font-family="monospace" font-size="10" fill="#00FFFF" letter-spacing="2">GITHUB OVERVIEW</text>
-  
-  <text x="35" y="68" font-family="monospace" font-size="18" fill="#fff" font-weight="bold">36</text>
-  <text x="70" y="68" font-family="monospace" font-size="10" fill="#8b949e">repositories</text>
-  
-  <text x="35" y="100" font-family="monospace" font-size="18" fill="#fff" font-weight="bold">12</text>
-  <text x="68" y="100" font-family="monospace" font-size="10" fill="#8b949e">followers</text>
-  
-  <text x="35" y="132" font-family="monospace" font-size="18" fill="#fff" font-weight="bold">29</text>
-  <text x="70" y="132" font-family="monospace" font-size="10" fill="#8b949e">following</text>
-
-  <!-- Panel 2: Top Languages (real from profile) -->
-  <rect x="325" y="10" width="280" height="160" rx="8" fill="#161b22" stroke="#BB66FF" stroke-width="0.8">
-    <animate attributeName="stroke-opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite" begin="0.5s"/>
+  <rect x="30" y="10" width="400" height="200" rx="10" fill="none" stroke="#BB66FF" stroke-width="1" stroke-dasharray="40 1160" stroke-linecap="round" opacity="0.5">
+    <animate attributeName="stroke-dashoffset" from="0" to="1200" dur="4s" repeatCount="indefinite"/>
   </rect>
-  <text x="345" y="35" font-family="monospace" font-size="10" fill="#BB66FF" letter-spacing="2">TOP LANGUAGES</text>
 
-  <text x="345" y="58" font-family="monospace" font-size="10" fill="#ccc">Python</text>
-  <rect x="345" y="63" width="220" height="7" rx="3" fill="#21262d"/>
-  <rect x="345" y="63" width="0" height="7" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="165" dur="1s" begin="0.5s" fill="freeze"/></rect>
+  <!-- Corner accents -->
+  <path d="M30,30 L30,15 Q30,10 35,10 L50,10" fill="none" stroke="#00FFFF" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M410,10 L425,10 Q430,10 430,15 L430,30" fill="none" stroke="#00FFFF" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </path>
+  <path d="M430,190 L430,205 Q430,210 425,210 L410,210" fill="none" stroke="#00FFFF" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </path>
+  <path d="M50,210 L35,210 Q30,210 30,205 L30,190" fill="none" stroke="#00FFFF" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+  </path>
 
-  <text x="345" y="88" font-family="monospace" font-size="10" fill="#ccc">TypeScript</text>
-  <rect x="345" y="93" width="220" height="7" rx="3" fill="#21262d"/>
-  <rect x="345" y="93" width="0" height="7" rx="3" fill="#3178C6"><animate attributeName="width" from="0" to="143" dur="1s" begin="0.8s" fill="freeze"/></rect>
+  <!-- Scanning beam -->
+  <rect x="30" y="10" width="400" height="2" fill="#00FFFF" opacity="0" clip-path="url(#panel1Clip)">
+    <animate attributeName="y" values="10;210;10" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.5;0.5;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
 
-  <text x="345" y="118" font-family="monospace" font-size="10" fill="#ccc">JavaScript</text>
-  <rect x="345" y="123" width="220" height="7" rx="3" fill="#21262d"/>
-  <rect x="345" y="123" width="0" height="7" rx="3" fill="#F7DF1E"><animate attributeName="width" from="0" to="110" dur="1s" begin="1.1s" fill="freeze"/></rect>
+  <!-- Header -->
+  <text x="50" y="38" font-family="monospace" font-size="11" fill="#00FFFF" letter-spacing="3" opacity="0">
+    GITHUB OVERVIEW
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.5s" fill="freeze"/>
+  </text>
+  
+  <!-- Blinking cursor -->
+  <rect x="195" y="27" width="8" height="13" fill="#00FFFF">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
 
-  <text x="345" y="148" font-family="monospace" font-size="10" fill="#ccc">Go</text>
-  <rect x="345" y="153" width="220" height="7" rx="3" fill="#21262d"/>
-  <rect x="345" y="153" width="0" height="7" rx="3" fill="#00ADD8"><animate attributeName="width" from="0" to="44" dur="1s" begin="1.4s" fill="freeze"/></rect>
+  <!-- Stat 1: Repos -->
+  <text x="50" y="80" font-family="monospace" font-size="11" fill="#8b949e" opacity="0">
+    ▸ repositories
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1s" fill="freeze"/>
+  </text>
+  <text x="310" y="80" font-family="monospace" font-size="26" fill="#fff" font-weight="bold" text-anchor="end" opacity="0">
+    36
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.2s" fill="freeze"/>
+  </text>
+  <rect x="50" y="88" width="0" height="1" fill="#00FFFF" opacity="0.4">
+    <animate attributeName="width" from="0" to="280" dur="0.8s" begin="1s" fill="freeze"/>
+  </rect>
+
+  <!-- Stat 2: Followers -->
+  <text x="50" y="120" font-family="monospace" font-size="11" fill="#8b949e" opacity="0">
+    ▸ followers
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.4s" fill="freeze"/>
+  </text>
+  <text x="310" y="120" font-family="monospace" font-size="26" fill="#fff" font-weight="bold" text-anchor="end" opacity="0">
+    12
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.6s" fill="freeze"/>
+  </text>
+  <rect x="50" y="128" width="0" height="1" fill="#00FFFF" opacity="0.4">
+    <animate attributeName="width" from="0" to="280" dur="0.8s" begin="1.4s" fill="freeze"/>
+  </rect>
+
+  <!-- Stat 3: Following -->
+  <text x="50" y="160" font-family="monospace" font-size="11" fill="#8b949e" opacity="0">
+    ▸ following
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.8s" fill="freeze"/>
+  </text>
+  <text x="310" y="160" font-family="monospace" font-size="26" fill="#fff" font-weight="bold" text-anchor="end" opacity="0">
+    29
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2s" fill="freeze"/>
+  </text>
+  <rect x="50" y="168" width="0" height="1" fill="#00FFFF" opacity="0.4">
+    <animate attributeName="width" from="0" to="280" dur="0.8s" begin="1.8s" fill="freeze"/>
+  </rect>
+
+  <!-- Active status -->
+  <circle cx="380" cy="35" r="4" fill="#00FF88">
+    <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="35" r="8" fill="#00FF88" opacity="0">
+    <animate attributeName="r" values="4;12;4" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0;0.2" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="355" y="39" font-family="monospace" font-size="8" fill="#00FF88" text-anchor="end">LIVE</text>
+
+  <!-- Floating particles panel 1 -->
+  <circle cx="100" cy="190" r="1.5" fill="#00FFFF" opacity="0">
+    <animate attributeName="cy" values="195;170" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="190" r="1" fill="#00FFFF" opacity="0">
+    <animate attributeName="cy" values="195;165" dur="4s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+
+  <!-- ═══ PANEL 2: TOP LANGUAGES ═══ -->
+  <rect x="470" y="10" width="400" height="200" rx="10" fill="#161b22"/>
+  
+  <!-- Rotating border beams -->
+  <rect x="470" y="10" width="400" height="200" rx="10" fill="none" stroke="#BB66FF" stroke-width="2" stroke-dasharray="80 1120" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="1200" to="0" dur="3.5s" repeatCount="indefinite" begin="0.5s"/>
+  </rect>
+  <rect x="470" y="10" width="400" height="200" rx="10" fill="none" stroke="#00FFFF" stroke-width="1" stroke-dasharray="40 1160" stroke-linecap="round" opacity="0.5">
+    <animate attributeName="stroke-dashoffset" from="0" to="1200" dur="4.5s" repeatCount="indefinite" begin="0.5s"/>
+  </rect>
+
+  <!-- Corner accents panel 2 -->
+  <path d="M470,30 L470,15 Q470,10 475,10 L490,10" fill="none" stroke="#BB66FF" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </path>
+  <path d="M850,10 L865,10 Q870,10 870,15 L870,30" fill="none" stroke="#BB66FF" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+  </path>
+  <path d="M870,190 L870,205 Q870,210 865,210 L850,210" fill="none" stroke="#BB66FF" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.3s"/>
+  </path>
+  <path d="M490,210 L475,210 Q470,210 470,205 L470,190" fill="none" stroke="#BB66FF" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" begin="1.8s"/>
+  </path>
+
+  <!-- Scanning beam panel 2 -->
+  <rect x="470" y="10" width="400" height="2" fill="#BB66FF" opacity="0" clip-path="url(#panel2Clip)">
+    <animate attributeName="y" values="10;210;10" dur="5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.4;0.4;0" dur="5s" repeatCount="indefinite" begin="1s"/>
+  </rect>
+
+  <!-- Header -->
+  <text x="490" y="38" font-family="monospace" font-size="11" fill="#BB66FF" letter-spacing="3" opacity="0">
+    TOP LANGUAGES
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.8s" fill="freeze"/>
+  </text>
+
+  <!-- ═══ PYTHON BAR ═══ -->
+  <text x="490" y="68" font-family="monospace" font-size="11" fill="#ccc" opacity="0">
+    Python<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.5s" fill="freeze"/>
+  </text>
+  <text x="830" y="68" font-family="monospace" font-size="10" fill="#3572A5" text-anchor="end" opacity="0">
+    75%<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2s" fill="freeze"/>
+  </text>
+  <rect x="490" y="74" width="340" height="9" rx="4" fill="#21262d" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.5s" fill="freeze"/>
+  </rect>
+  <rect x="490" y="74" width="0" height="9" rx="4" fill="#3572A5">
+    <animate attributeName="width" from="0" to="255" dur="1.2s" begin="1.8s" fill="freeze"/>
+  </rect>
+  <!-- Shimmer (clipped to bar bounds) -->
+  <rect x="490" y="74" width="40" height="9" rx="4" fill="#fff" opacity="0" clip-path="url(#bar1Clip)">
+    <animate attributeName="x" values="490;745" dur="2s" begin="3.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.25;0" dur="2s" begin="3.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ TYPESCRIPT BAR ═══ -->
+  <text x="490" y="105" font-family="monospace" font-size="11" fill="#ccc" opacity="0">
+    TypeScript<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2s" fill="freeze"/>
+  </text>
+  <text x="830" y="105" font-family="monospace" font-size="10" fill="#3178C6" text-anchor="end" opacity="0">
+    65%<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.5s" fill="freeze"/>
+  </text>
+  <rect x="490" y="111" width="340" height="9" rx="4" fill="#21262d" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2s" fill="freeze"/>
+  </rect>
+  <rect x="490" y="111" width="0" height="9" rx="4" fill="#3178C6">
+    <animate attributeName="width" from="0" to="221" dur="1.2s" begin="2.3s" fill="freeze"/>
+  </rect>
+  <rect x="490" y="111" width="40" height="9" rx="4" fill="#fff" opacity="0" clip-path="url(#bar2Clip)">
+    <animate attributeName="x" values="490;711" dur="2.5s" begin="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.25;0" dur="2.5s" begin="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ JAVASCRIPT BAR ═══ -->
+  <text x="490" y="142" font-family="monospace" font-size="11" fill="#ccc" opacity="0">
+    JavaScript<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.5s" fill="freeze"/>
+  </text>
+  <text x="830" y="142" font-family="monospace" font-size="10" fill="#F7DF1E" text-anchor="end" opacity="0">
+    50%<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3s" fill="freeze"/>
+  </text>
+  <rect x="490" y="148" width="340" height="9" rx="4" fill="#21262d" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.5s" fill="freeze"/>
+  </rect>
+  <rect x="490" y="148" width="0" height="9" rx="4" fill="#F7DF1E">
+    <animate attributeName="width" from="0" to="170" dur="1.2s" begin="2.8s" fill="freeze"/>
+  </rect>
+  <rect x="490" y="148" width="40" height="9" rx="4" fill="#fff" opacity="0" clip-path="url(#bar3Clip)">
+    <animate attributeName="x" values="490;660" dur="3s" begin="4.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.25;0" dur="3s" begin="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ GO BAR ═══ -->
+  <text x="490" y="179" font-family="monospace" font-size="11" fill="#ccc" opacity="0">
+    Go<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="3s" fill="freeze"/>
+  </text>
+  <text x="830" y="179" font-family="monospace" font-size="10" fill="#00ADD8" text-anchor="end" opacity="0">
+    20%<animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.5s" fill="freeze"/>
+  </text>
+  <rect x="490" y="185" width="340" height="9" rx="4" fill="#21262d" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3s" fill="freeze"/>
+  </rect>
+  <rect x="490" y="185" width="0" height="9" rx="4" fill="#00ADD8">
+    <animate attributeName="width" from="0" to="68" dur="1.2s" begin="3.3s" fill="freeze"/>
+  </rect>
+  <rect x="490" y="185" width="40" height="9" rx="4" fill="#fff" opacity="0" clip-path="url(#bar4Clip)">
+    <animate attributeName="x" values="490;558" dur="3.5s" begin="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.2;0" dur="3.5s" begin="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Floating particles panel 2 -->
+  <circle cx="550" cy="190" r="1" fill="#BB66FF" opacity="0">
+    <animate attributeName="cy" values="200;175" dur="3.5s" repeatCount="indefinite" begin="0.2s"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="3.5s" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+  <circle cx="800" cy="190" r="1.5" fill="#BB66FF" opacity="0">
+    <animate attributeName="cy" values="200;170" dur="4s" repeatCount="indefinite" begin="1.2s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite" begin="1.2s"/>
+  </circle>
 </svg>

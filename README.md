@@ -5,9 +5,7 @@
 <br/>
 
 <div align="center">
-  
-  <br/><br/>
-  <img src="./assets/images/ai-robot-walking.gif" alt="AI Robot Walking" width="80%"/>
+  <img src="./assets/images/ai-robot-walking.gif" alt="AI Robot Walking" width="500"/>
 </div>
 
 <br/>
@@ -16,7 +14,15 @@
   <a href="https://profile-aviral.vercel.app/"><img src="./assets/svgs/status-bar.svg" alt="Status" width="100%"/></a>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="./assets/svgs/divider.svg" width="100%">
+
+<!-- ═══════ CURRENTLY BUILDING ═══════ -->
+
+<div align="center">
+  <img src="./assets/svgs/currently-building.svg" alt="Currently Building" width="100%"/>
+</div>
+
+<img src="./assets/svgs/divider.svg" width="100%">
 
 <!-- ═══════ NEURAL NETWORK ═══════ -->
 
@@ -24,7 +30,7 @@
   <img src="./assets/svgs/neural-network.svg" alt="Neural Network" width="100%"/>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="./assets/svgs/divider.svg" width="100%">
 
 <!-- ═══════ TECH STACK ═══════ -->
 
@@ -32,7 +38,15 @@
   <img src="./assets/svgs/tech-stack.svg" alt="Tech Stack" width="100%"/>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="./assets/svgs/divider.svg" width="100%">
+
+<!-- ═══════ TECH STACK CUBE ═══════ -->
+
+<div align="center">
+  <img src="./assets/svgs/tech-cube.svg" alt="3D Tech Cube" width="100%"/>
+</div>
+
+<img src="./assets/svgs/divider.svg" width="100%">
 
 <!-- ═══════ ACHIEVEMENTS ═══════ -->
 
@@ -40,7 +54,7 @@
   <img src="./assets/svgs/achievements.svg" alt="Achievements" width="100%"/>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="./assets/svgs/divider.svg" width="100%">
 
 <!-- ═══════ GITHUB STATS ═══════ -->
 
@@ -48,7 +62,7 @@
   <img src="./assets/svgs/github-stats.svg" alt="GitHub Stats" width="100%"/>
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="./assets/svgs/divider.svg" width="100%">
 
 <!-- ═══════ CONNECT ═══════ -->
 

@@ -1,56 +1,138 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150">
-  <rect width="900" height="150" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="900" height="180">
+  <defs>
+    <clipPath id="footerClip"><rect x="0" y="0" width="900" height="180"/></clipPath>
+  </defs>
+  <rect width="900" height="180" fill="#0d1117"/>
 
-  <!-- Animated waveform across the top -->
-  <path d="M0,30 Q50,10 100,30 Q150,50 200,30 Q250,10 300,30 Q350,50 400,30 Q450,10 500,30 Q550,50 600,30 Q650,10 700,30 Q750,50 800,30 Q850,10 900,30" fill="none" stroke="#00FFFF" stroke-width="1.5" stroke-opacity="0.4">
-    <animate attributeName="d" values="M0,30 Q50,10 100,30 Q150,50 200,30 Q250,10 300,30 Q350,50 400,30 Q450,10 500,30 Q550,50 600,30 Q650,10 700,30 Q750,50 800,30 Q850,10 900,30;M0,30 Q50,50 100,30 Q150,10 200,30 Q250,50 300,30 Q350,10 400,30 Q450,50 500,30 Q550,10 600,30 Q650,50 700,30 Q750,10 800,30 Q850,50 900,30;M0,30 Q50,10 100,30 Q150,50 200,30 Q250,10 300,30 Q350,50 400,30 Q450,10 500,30 Q550,50 600,30 Q650,10 700,30 Q750,50 800,30 Q850,10 900,30" dur="4s" repeatCount="indefinite"/>
-  </path>
-  <path d="M0,35 Q50,55 100,35 Q150,15 200,35 Q250,55 300,35 Q350,15 400,35 Q450,55 500,35 Q550,15 600,35 Q650,55 700,35 Q750,15 800,35 Q850,55 900,35" fill="none" stroke="#FF6B9D" stroke-width="1" stroke-opacity="0.25">
-    <animate attributeName="d" values="M0,35 Q50,55 100,35 Q150,15 200,35 Q250,55 300,35 Q350,15 400,35 Q450,55 500,35 Q550,15 600,35 Q650,55 700,35 Q750,15 800,35 Q850,55 900,35;M0,35 Q50,15 100,35 Q150,55 200,35 Q250,15 300,35 Q350,55 400,35 Q450,15 500,35 Q550,55 600,35 Q650,15 700,35 Q750,55 800,35 Q850,15 900,35;M0,35 Q50,55 100,35 Q150,15 200,35 Q250,55 300,35 Q350,15 400,35 Q450,55 500,35 Q550,15 600,35 Q650,55 700,35 Q750,15 800,35 Q850,55 900,35" dur="5s" repeatCount="indefinite"/>
-  </path>
-  <path d="M0,32 Q60,18 120,32 Q180,46 240,32 Q300,18 360,32 Q420,46 480,32 Q540,18 600,32 Q660,46 720,32 Q780,18 840,32 Q870,46 900,32" fill="none" stroke="#BB66FF" stroke-width="0.8" stroke-opacity="0.2">
-    <animate attributeName="d" values="M0,32 Q60,18 120,32 Q180,46 240,32 Q300,18 360,32 Q420,46 480,32 Q540,18 600,32 Q660,46 720,32 Q780,18 840,32 Q870,46 900,32;M0,32 Q60,46 120,32 Q180,18 240,32 Q300,46 360,32 Q420,18 480,32 Q540,46 600,32 Q660,18 720,32 Q780,46 840,32 Q870,18 900,32;M0,32 Q60,18 120,32 Q180,46 240,32 Q300,18 360,32 Q420,46 480,32 Q540,18 600,32 Q660,46 720,32 Q780,18 840,32 Q870,46 900,32" dur="6s" repeatCount="indefinite"/>
+  <!-- ═══ TOP WAVEFORM LAYER 1 (cyan, dominant) ═══ -->
+  <path fill="none" stroke="#00FFFF" stroke-width="2" stroke-opacity="0.5" stroke-linecap="round">
+    <animate attributeName="d" values="
+      M0,25 C75,5 150,45 225,25 C300,5 375,45 450,25 C525,5 600,45 675,25 C750,5 825,45 900,25;
+      M0,25 C75,45 150,5 225,25 C300,45 375,5 450,25 C525,45 600,5 675,25 C750,45 825,5 900,25;
+      M0,25 C75,5 150,45 225,25 C300,5 375,45 450,25 C525,5 600,45 675,25 C750,5 825,45 900,25
+    " dur="3s" repeatCount="indefinite"/>
   </path>
 
-  <!-- Floating particles -->
-  <circle cx="100" cy="80" r="2" fill="#00FFFF" opacity="0.6">
-    <animate attributeName="cy" values="80;60;80" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="250" cy="100" r="1.5" fill="#FF6B9D" opacity="0.5">
-    <animate attributeName="cy" values="100;75;100" dur="5s" repeatCount="indefinite" begin="0.5s"/>
-    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite" begin="0.5s"/>
-  </circle>
-  <circle cx="400" cy="90" r="2" fill="#BB66FF" opacity="0.4">
-    <animate attributeName="cy" values="90;65;90" dur="3.5s" repeatCount="indefinite" begin="1s"/>
-    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.5s" repeatCount="indefinite" begin="1s"/>
-  </circle>
-  <circle cx="550" cy="85" r="1.5" fill="#FFBD2E" opacity="0.5">
-    <animate attributeName="cy" values="85;60;85" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
-    <animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
-  </circle>
-  <circle cx="700" cy="95" r="2" fill="#27C93F" opacity="0.4">
-    <animate attributeName="cy" values="95;70;95" dur="5.5s" repeatCount="indefinite" begin="2s"/>
-    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="5.5s" repeatCount="indefinite" begin="2s"/>
-  </circle>
-  <circle cx="820" cy="75" r="1.5" fill="#00FFFF" opacity="0.5">
-    <animate attributeName="cy" values="75;55;75" dur="4s" repeatCount="indefinite" begin="0.8s"/>
-    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite" begin="0.8s"/>
-  </circle>
+  <!-- TOP WAVEFORM LAYER 2 (pink, offset) -->
+  <path fill="none" stroke="#FF6B9D" stroke-width="1.2" stroke-opacity="0.35" stroke-linecap="round">
+    <animate attributeName="d" values="
+      M0,30 C60,50 120,10 180,30 C240,50 300,10 360,30 C420,50 480,10 540,30 C600,50 660,10 720,30 C780,50 840,10 900,30;
+      M0,30 C60,10 120,50 180,30 C240,10 300,50 360,30 C420,10 480,50 540,30 C600,10 660,50 720,30 C780,10 840,50 900,30;
+      M0,30 C60,50 120,10 180,30 C240,50 300,10 360,30 C420,50 480,10 540,30 C600,50 660,10 720,30 C780,50 840,10 900,30
+    " dur="4s" repeatCount="indefinite"/>
+  </path>
 
-  <!-- Main text -->
-  <text x="450" y="85" text-anchor="middle" font-family="monospace" font-size="14" fill="#ffffff" font-weight="bold" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.5s" fill="freeze"/>
+  <!-- TOP WAVEFORM LAYER 3 (purple, subtle) -->
+  <path fill="none" stroke="#BB66FF" stroke-width="0.8" stroke-opacity="0.25" stroke-linecap="round">
+    <animate attributeName="d" values="
+      M0,28 C90,12 180,44 270,28 C360,12 450,44 540,28 C630,12 720,44 810,28 C855,12 900,28 900,28;
+      M0,28 C90,44 180,12 270,28 C360,44 450,12 540,28 C630,44 720,12 810,28 C855,44 900,28 900,28;
+      M0,28 C90,12 180,44 270,28 C360,12 450,44 540,28 C630,12 720,44 810,28 C855,12 900,28 900,28
+    " dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Horizontal energy pulse traveling across top -->
+  <rect x="-100" y="22" width="80" height="3" rx="1.5" fill="#00FFFF" opacity="0" clip-path="url(#footerClip)">
+    <animate attributeName="x" values="-100;1000" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- ═══ MAIN TEXT with matrix reveal ═══ -->
+  <text x="450" y="95" text-anchor="middle" font-family="monospace" font-size="15" fill="#ffffff" font-weight="bold" opacity="0">
     Built with &#x26A1; by Aviral Srivastava
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.5s" fill="freeze"/>
   </text>
-  
-  <text x="450" y="110" text-anchor="middle" font-family="monospace" font-size="11" fill="#00FFFF" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1s" fill="freeze"/>
-    Bangalore, India &#x1F1EE;&#x1F1F3; | Open to collaborate globally
+  <!-- Glitch duplicate -->
+  <text x="451" y="95" text-anchor="middle" font-family="monospace" font-size="15" fill="#00FFFF" font-weight="bold" opacity="0">
+    Built with &#x26A1; by Aviral Srivastava
+    <animate attributeName="opacity" values="0;0.2;0;0;0;0;0;0" dur="4s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="x" values="451;449;451" dur="0.08s" repeatCount="indefinite" begin="2s"/>
   </text>
 
-  <!-- Bottom waveform (mirror) -->
-  <path d="M0,130 Q50,120 100,130 Q150,140 200,130 Q250,120 300,130 Q350,140 400,130 Q450,120 500,130 Q550,140 600,130 Q650,120 700,130 Q750,140 800,130 Q850,120 900,130" fill="none" stroke="#00FFFF" stroke-width="1" stroke-opacity="0.2">
-    <animate attributeName="d" values="M0,130 Q50,120 100,130 Q150,140 200,130 Q250,120 300,130 Q350,140 400,130 Q450,120 500,130 Q550,140 600,130 Q650,120 700,130 Q750,140 800,130 Q850,120 900,130;M0,130 Q50,140 100,130 Q150,120 200,130 Q250,140 300,130 Q350,120 400,130 Q450,140 500,130 Q550,120 600,130 Q650,140 700,130 Q750,120 800,130 Q850,140 900,130;M0,130 Q50,120 100,130 Q150,140 200,130 Q250,120 300,130 Q350,140 400,130 Q450,120 500,130 Q550,140 600,130 Q650,120 700,130 Q750,140 800,130 Q850,120 900,130" dur="5s" repeatCount="indefinite"/>
+  <!-- Subtitle -->
+  <text x="450" y="120" text-anchor="middle" font-family="monospace" font-size="11" fill="#00FFFF" opacity="0">
+    Bangalore, India &#x1F1EE;&#x1F1F3; | Building the future with AI
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1s" fill="freeze"/>
+  </text>
+
+  <!-- ═══ BOTTOM WAVEFORM (mirror, same 3-layer approach) ═══ -->
+  <path fill="none" stroke="#00FFFF" stroke-width="2" stroke-opacity="0.5" stroke-linecap="round">
+    <animate attributeName="d" values="
+      M0,155 C75,175 150,135 225,155 C300,175 375,135 450,155 C525,175 600,135 675,155 C750,175 825,135 900,155;
+      M0,155 C75,135 150,175 225,155 C300,135 375,175 450,155 C525,135 600,175 675,155 C750,135 825,175 900,155;
+      M0,155 C75,175 150,135 225,155 C300,175 375,135 450,155 C525,175 600,135 675,155 C750,175 825,135 900,155
+    " dur="3.5s" repeatCount="indefinite"/>
+  </path>
+  <path fill="none" stroke="#FF6B9D" stroke-width="1" stroke-opacity="0.3" stroke-linecap="round">
+    <animate attributeName="d" values="
+      M0,152 C80,135 160,170 240,152 C320,135 400,170 480,152 C560,135 640,170 720,152 C800,135 880,170 900,152;
+      M0,152 C80,170 160,135 240,152 C320,170 400,135 480,152 C560,170 640,135 720,152 C800,170 880,135 900,152;
+      M0,152 C80,135 160,170 240,152 C320,135 400,170 480,152 C560,135 640,170 720,152 C800,135 880,170 900,152
+    " dur="4.5s" repeatCount="indefinite"/>
+  </path>
+  <path fill="none" stroke="#BB66FF" stroke-width="0.8" stroke-opacity="0.2" stroke-linecap="round">
+    <animate attributeName="d" values="
+      M0,158 C100,142 200,174 300,158 C400,142 500,174 600,158 C700,142 800,174 900,158;
+      M0,158 C100,174 200,142 300,158 C400,174 500,142 600,158 C700,174 800,142 900,158;
+      M0,158 C100,142 200,174 300,158 C400,142 500,174 600,158 C700,142 800,174 900,158
+    " dur="5.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Bottom energy pulse -->
+  <rect x="1000" y="153" width="80" height="3" rx="1.5" fill="#BB66FF" opacity="0" clip-path="url(#footerClip)">
+    <animate attributeName="x" values="1000;-100" dur="4s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.5;0.5;0" dur="4s" repeatCount="indefinite" begin="1s"/>
+  </rect>
+
+  <!-- ═══ FLOATING PARTICLES (enhanced, more depth) ═══ -->
+  <!-- Layer 1: bright, close -->
+  <circle cx="80" cy="80" r="2" fill="#00FFFF" opacity="0">
+    <animate attributeName="cy" values="90;60;90" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="1.5;2.5;1.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="110" r="2.5" fill="#FF6B9D" opacity="0">
+    <animate attributeName="cy" values="110;75;110" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+    <animate attributeName="r" values="2;3;2" dur="5s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="450" cy="70" r="2" fill="#BB66FF" opacity="0">
+    <animate attributeName="cy" values="70;45;70" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+    <animate attributeName="opacity" values="0;0.9;0" dur="3.5s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  <circle cx="650" cy="100" r="2" fill="#FFBD2E" opacity="0">
+    <animate attributeName="cy" values="100;70;100" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="4.5s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="820" cy="85" r="2" fill="#00FF88" opacity="0">
+    <animate attributeName="cy" values="85;55;85" dur="4s" repeatCount="indefinite" begin="0.8s"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="4s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+  <!-- Layer 2: dim, background -->
+  <circle cx="150" cy="140" r="1" fill="#00FFFF" opacity="0">
+    <animate attributeName="cy" values="140;120;140" dur="6s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.4;0" dur="6s" repeatCount="indefinite" begin="2s"/>
+  </circle>
+  <circle cx="350" cy="130" r="1" fill="#FF6B9D" opacity="0">
+    <animate attributeName="cy" values="130;110;130" dur="5.5s" repeatCount="indefinite" begin="3s"/>
+    <animate attributeName="opacity" values="0;0.3;0" dur="5.5s" repeatCount="indefinite" begin="3s"/>
+  </circle>
+  <circle cx="550" cy="50" r="1" fill="#BB66FF" opacity="0">
+    <animate attributeName="cy" values="50;35;50" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0;0.5;0" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="750" cy="140" r="1" fill="#FFBD2E" opacity="0">
+    <animate attributeName="cy" values="140;118;140" dur="5s" repeatCount="indefinite" begin="2.5s"/>
+    <animate attributeName="opacity" values="0;0.4;0" dur="5s" repeatCount="indefinite" begin="2.5s"/>
+  </circle>
+
+  <!-- ═══ HEARTBEAT LINE (EKG style) through center ═══ -->
+  <path fill="none" stroke="#00FFFF" stroke-width="1" stroke-opacity="0" stroke-linecap="round">
+    <animate attributeName="d" values="
+      M0,95 L300,95 L320,95 L330,80 L340,110 L350,70 L360,120 L370,95 L380,95 L600,95 L900,95;
+      M0,95 L100,95 L120,95 L130,80 L140,110 L150,70 L160,120 L170,95 L180,95 L400,95 L900,95;
+      M0,95 L500,95 L520,95 L530,80 L540,110 L550,70 L560,120 L570,95 L580,95 L800,95 L900,95
+    " dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0;0.25;0.25;0" dur="2s" repeatCount="indefinite"/>
   </path>
 </svg>
